@@ -1,0 +1,6 @@
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\PlainStaticWeb\bin\PlainStaticWeb.dll.config
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\PlainStaticWeb\bin\PlainStaticWeb.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\PlainStaticWeb\bin\PlainStaticWeb.pdb
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\PlainStaticWeb\obj\Debug\PlainStaticWeb.csprojResolveAssemblyReference.cache
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\PlainStaticWeb\obj\Debug\PlainStaticWeb.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\PlainStaticWeb\obj\Debug\PlainStaticWeb.pdb

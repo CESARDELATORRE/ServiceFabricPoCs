@@ -1,0 +1,2 @@
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount\obj\x64\Debug\WordCount.sfprojResolveAssemblyReference.cache
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount\obj\x64\Debug\WordCount.sfprojResolveAssemblyReference.cache

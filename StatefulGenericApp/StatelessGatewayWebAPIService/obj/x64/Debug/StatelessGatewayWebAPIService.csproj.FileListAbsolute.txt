@@ -1,0 +1,1 @@
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\StatelessGatewayWebAPIService\bin\Debug\StatelessGatewayWebAPIService.exe.config

@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ServiceFabricServiceBusPoC", "ServiceFabricServiceBusPoC\ServiceFabricServiceBusPoC.wfproj", "{E7D99E19-9DA1-40B8-A9AC-3CD6CE48AF8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubmissionService", "SubmissionService\SubmissionService.csproj", "{F5A140D7-0D37-479E-8FC8-04B21F3954DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandHandlerService", "WorkerService\CommandHandlerService.csproj", "{4914ADC3-A7FE-46A3-9CA9-462823A7721C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerService", "EventHandlerWorkerService\EventHandlerService.csproj", "{37C20D30-3701-4DF6-B22B-34BBDA8DF9E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 CommandHandling", "02 CommandHandling", "{919CB4E4-1C70-414F-BFC8-81D0AFDFC323}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 EventHandling", "03 EventHandling", "{0D463C20-E8A6-4478-BDA5-D800A2E8129F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 ServiceFabric AppDefinition", "00 ServiceFabric AppDefinition", "{773E87AA-E7DB-47D5-A8D3-E0340A6C0900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerInOtherBoundedContext", "EventHandlerWorkerServiceInOtherBC\EventHandlerInOtherBoundedContext.csproj", "{4E77B2E2-F42E-48B2-848A-640C62EB29D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Commands Gateway WebAPI Service", "01 Commands Gateway WebAPI Service", "{F4F7EEF8-F137-4F02-8DC3-50A88BB4EDF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7D99E19-9DA1-40B8-A9AC-3CD6CE48AF8B}.Debug|x64.ActiveCfg = Debug|x64
+		{E7D99E19-9DA1-40B8-A9AC-3CD6CE48AF8B}.Debug|x64.Build.0 = Debug|x64
+		{E7D99E19-9DA1-40B8-A9AC-3CD6CE48AF8B}.Debug|x64.Deploy.0 = Debug|x64
+		{E7D99E19-9DA1-40B8-A9AC-3CD6CE48AF8B}.Release|x64.ActiveCfg = Release|x64
+		{E7D99E19-9DA1-40B8-A9AC-3CD6CE48AF8B}.Release|x64.Build.0 = Release|x64
+		{E7D99E19-9DA1-40B8-A9AC-3CD6CE48AF8B}.Release|x64.Deploy.0 = Release|x64
+		{F5A140D7-0D37-479E-8FC8-04B21F3954DA}.Debug|x64.ActiveCfg = Debug|x64
+		{F5A140D7-0D37-479E-8FC8-04B21F3954DA}.Debug|x64.Build.0 = Debug|x64
+		{F5A140D7-0D37-479E-8FC8-04B21F3954DA}.Release|x64.ActiveCfg = Release|x64
+		{F5A140D7-0D37-479E-8FC8-04B21F3954DA}.Release|x64.Build.0 = Release|x64
+		{4914ADC3-A7FE-46A3-9CA9-462823A7721C}.Debug|x64.ActiveCfg = Debug|x64
+		{4914ADC3-A7FE-46A3-9CA9-462823A7721C}.Debug|x64.Build.0 = Debug|x64
+		{4914ADC3-A7FE-46A3-9CA9-462823A7721C}.Release|x64.ActiveCfg = Release|x64
+		{4914ADC3-A7FE-46A3-9CA9-462823A7721C}.Release|x64.Build.0 = Release|x64
+		{37C20D30-3701-4DF6-B22B-34BBDA8DF9E6}.Debug|x64.ActiveCfg = Debug|x64
+		{37C20D30-3701-4DF6-B22B-34BBDA8DF9E6}.Debug|x64.Build.0 = Debug|x64
+		{37C20D30-3701-4DF6-B22B-34BBDA8DF9E6}.Release|x64.ActiveCfg = Release|x64
+		{37C20D30-3701-4DF6-B22B-34BBDA8DF9E6}.Release|x64.Build.0 = Release|x64
+		{4E77B2E2-F42E-48B2-848A-640C62EB29D7}.Debug|x64.ActiveCfg = Debug|x64
+		{4E77B2E2-F42E-48B2-848A-640C62EB29D7}.Debug|x64.Build.0 = Debug|x64
+		{4E77B2E2-F42E-48B2-848A-640C62EB29D7}.Release|x64.ActiveCfg = Release|x64
+		{4E77B2E2-F42E-48B2-848A-640C62EB29D7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7D99E19-9DA1-40B8-A9AC-3CD6CE48AF8B} = {773E87AA-E7DB-47D5-A8D3-E0340A6C0900}
+		{F5A140D7-0D37-479E-8FC8-04B21F3954DA} = {F4F7EEF8-F137-4F02-8DC3-50A88BB4EDF4}
+		{4914ADC3-A7FE-46A3-9CA9-462823A7721C} = {919CB4E4-1C70-414F-BFC8-81D0AFDFC323}
+		{37C20D30-3701-4DF6-B22B-34BBDA8DF9E6} = {0D463C20-E8A6-4478-BDA5-D800A2E8129F}
+		{4E77B2E2-F42E-48B2-848A-640C62EB29D7} = {0D463C20-E8A6-4478-BDA5-D800A2E8129F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\Model\bin\Debug\Model.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\Model\bin\Debug\Model.pdb
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\Model\obj\Debug\Model.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\Model\obj\Debug\Model.pdb
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\bin\Debug\Model.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\bin\Debug\Model.pdb
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\obj\Debug\Model.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\obj\Debug\Model.pdb
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\bin\Debug\Newtonsoft.Json.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\bin\Debug\Newtonsoft.Json.xml
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\bin\Debug\System.Net.Http.Formatting.xml

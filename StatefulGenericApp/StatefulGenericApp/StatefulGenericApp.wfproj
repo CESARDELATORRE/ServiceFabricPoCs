@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Windows Fabric Tools\Microsoft.VisualStudio.Azure.Fabric.ApplicationProject.props" />
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>8f5690a5-22c8-45be-8fb7-3f76c58d3796</ProjectGuid>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="ApplicationManifest.xml" />
+    <None Include="Scripts\Create-FabricApplication.ps1" />
+    <None Include="Scripts\Deploy-FabricApplication.ps1" />
+    <None Include="Scripts\Get-FabricApplicationStatus.ps1" />
+    <None Include="Scripts\Get-Replicas.ps1" />
+    <None Include="Scripts\Parameters.json" />
+    <None Include="Scripts\Register-FabricApplicationType.ps1" />
+    <None Include="Scripts\Remove-Deployment.ps1" />
+    <None Include="Scripts\Remove-FabricApplication.ps1" />
+    <None Include="Scripts\Resolve-ActorHost.ps1" />
+    <None Include="Scripts\Restart-ActorHost.ps1" />
+    <None Include="Scripts\Unregister-FabricApplicationType.ps1" />
+    <None Include="Scripts\Utilities.psm1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StatefulWebAPIService\StatefulWebAPIService.csproj" />
+    <ProjectReference Include="..\StatelessGatewayWebAPIService\StatelessGatewayWebAPIService.csproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <ProjectCapabilities>
+      <FabricApplication />
+    </ProjectCapabilities>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Windows Fabric Tools\Microsoft.VisualStudio.Azure.Fabric.ApplicationProject.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Windows Fabric Tools\Microsoft.VisualStudio.Azure.Fabric.ApplicationPackage.targets" />
+</Project>

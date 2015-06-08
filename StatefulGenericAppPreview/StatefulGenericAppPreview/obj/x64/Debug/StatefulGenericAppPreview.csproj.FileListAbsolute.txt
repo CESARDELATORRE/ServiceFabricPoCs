@@ -1,0 +1,15 @@
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\StatefulGenericAppPreview.exe.config
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\StatefulGenericAppPreview.exe
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\StatefulGenericAppPreview.pdb
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\Microsoft.ServiceFabric.Data.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\Microsoft.ServiceFabric.Services.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\System.Fabric.Common.Internal.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\System.Fabric.Common.Internal.Strings.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\Microsoft.ServiceFabric.Replicator.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\Microsoft.ServiceFabric.Collections.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\Microsoft.ServiceFabric.Data.Log.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\Microsoft.ServiceFabric.ReplicatedStore.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\bin\Debug\en-us\System.Fabric.Common.Internal.Strings.resources.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\obj\x64\Debug\StatefulGenericAppPreview.exe
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\obj\x64\Debug\StatefulGenericAppPreview.pdb
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreview\obj\x64\Debug\StatefulGenericAppPreview.csprojResolveAssemblyReference.cache

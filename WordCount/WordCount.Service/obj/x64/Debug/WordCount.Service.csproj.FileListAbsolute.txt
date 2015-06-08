@@ -1,0 +1,74 @@
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\WordCount.Service.exe.config
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\WordCount.Service.exe
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\WordCount.Service.pdb
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.Hosting.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.Practices.Unity.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.Collections.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.Data.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.Services.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Newtonsoft.Json.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Owin.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\System.Fabric.Common.Internal.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\System.Fabric.Common.Internal.Strings.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\System.Net.Http.Formatting.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\System.Web.Http.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\System.Web.Http.Owin.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Unity.WebApi.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\WordCount.Common.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.Replicator.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.ReplicatedStore.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.Data.Log.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\WordCount.Common.pdb
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.xml
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.Hosting.xml
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.Practices.Unity.xml
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\Newtonsoft.Json.xml
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\System.Net.Http.Formatting.xml
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\System.Web.Http.xml
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\System.Web.Http.Owin.xml
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\bin\Debug\en-us\System.Fabric.Common.Internal.Strings.resources.dll
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\obj\x64\Debug\WordCount.Service.csprojResolveAssemblyReference.cache
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\obj\x64\Debug\WordCount.Service.exe
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\WordCount\WordCount.Service\obj\x64\Debug\WordCount.Service.pdb
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\WordCount.Service.exe.config
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\WordCount.Service.exe
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\WordCount.Service.pdb
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.Hosting.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.Practices.Unity.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.Collections.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.Data.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.Services.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Newtonsoft.Json.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Owin.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\System.Fabric.Common.Internal.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\System.Fabric.Common.Internal.Strings.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\System.Net.Http.Formatting.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\System.Web.Http.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\System.Web.Http.Owin.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Unity.WebApi.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\WordCount.Common.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.Replicator.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.ReplicatedStore.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.ServiceFabric.Data.Log.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\WordCount.Common.pdb
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.xml
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.Owin.Hosting.xml
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.Practices.Unity.xml
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\Newtonsoft.Json.xml
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\System.Net.Http.Formatting.xml
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\System.Web.Http.xml
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\System.Web.Http.Owin.xml
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\bin\Debug\en-us\System.Fabric.Common.Internal.Strings.resources.dll
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\obj\x64\Debug\WordCount.Service.csprojResolveAssemblyReference.cache
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\obj\x64\Debug\WordCount.Service.exe
+E:\GITREPOS\ServiceFabric PoCs\WordCount\WordCount.Service\obj\x64\Debug\WordCount.Service.pdb

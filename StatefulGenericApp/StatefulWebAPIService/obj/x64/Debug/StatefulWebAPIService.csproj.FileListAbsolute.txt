@@ -1,0 +1,2 @@
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\StatefulWebAPIService\obj\x64\Debug\StatefulWebAPIService.csprojResolveAssemblyReference.cache
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\StatefulWebAPIService\obj\x64\Debug\StatefulWebAPIService.csproj.StatefulWebAPIService.exe.config

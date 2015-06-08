@@ -1,0 +1,2 @@
+E:\GITREPOS\ServiceFabricSamples\samples\Services\VS2015\ClusterMonitor\ClusterMonitorApplication\obj\x64\Debug\ClusterMonitorApplication.sfprojResolveAssemblyReference.cache
+E:\GITREPOS\ServiceFabric PoCs\ClusterMonitor\ClusterMonitorApplication\obj\x64\Debug\ClusterMonitorApplication.sfprojResolveAssemblyReference.cache

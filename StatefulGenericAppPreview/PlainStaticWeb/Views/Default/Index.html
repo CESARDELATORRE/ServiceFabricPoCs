@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Values coming through from a Stateful Service Fabric Service and a Stateless Gateway in between</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.js"></script>
+    
+    <style type="text/css">
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+            font: 0.9em/1.2 Segoe UI,Arial,sans-serif;
+            background: #DDD;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #00ABEC;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        td {
+            padding: 2px 15px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <script type="text/javascript">        
+        $.ajaxSetup({ cache: false });
+
+        $(function () {
+            var CountTask = setInterval(function () { GetPartitionsInfo(); }, 100);
+            //var AddWordTask = setInterval(function () { SendValue(); }, 50);
+        });
+
+        function GetPartitionsInfo() {
+            $.ajax({
+                url: 'http://localhost/StatelessGatewayWebAPIService/Count',
+                dataType: 'html',
+                method: 'GET'
+            })
+           .done(function (result) {
+               $('#partitionsInfoPlaceholder').html(result)
+           });
+        }
+
+        $(document).ready(function () {
+            $("#Save").click(function () {
+
+                var AddorUpdateCustomerCommand = new Object();
+
+                AddorUpdateCustomerCommand.date = $('#date').val();
+                AddorUpdateCustomerCommand.customerkey = $('#customerkey').val();
+                AddorUpdateCustomerCommand.companyname = $('#companyname').val();
+                AddorUpdateCustomerCommand.statecode = $('#statecode').val();
+                AddorUpdateCustomerCommand.countrycode = $('#countrycode').val();
+                AddorUpdateCustomerCommand.zipcode = $('#zipcode').val();
+                AddorUpdateCustomerCommand.contactfullname = $('#contactfullname').val();
+                AddorUpdateCustomerCommand.contactemail = $('#contactemail').val();
+
+                $.ajax({
+                    url: 'http://localhost/StatelessGatewayWebAPIService/customers/postaddorupdatecustomercommand',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: AddorUpdateCustomerCommand,
+                    success: function (data, textStatus, xhr) {
+                        console.log(data);                        
+                        $('#sendResult').html(data);
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        $('#sendResult').html("Error posting the update.");
+                    }
+                });
+
+                //Another way
+                //$.post('http://localhost/StatelessGatewayWebAPIService/customers/postaddorupdatecustomercommand', AddorUpdateCustomerCommand, function (data) {
+                //    console.log(data);
+                //    var loc = data.getResponseHeader('Location');
+                //    var a = $('<a/>', { href: loc, text: loc });
+                //    $('#sendResult').html(a);
+                //});
+
+            });
+        });
+
+        //[Route("customers/{customerKey}/addorupdate/{companyName}/{zipCode}/{stateCode}/{countryCode}/{contactFullName}/{contactEmail}")]
+        function SubmitCustomers() {
+            //Add 6 specific Customers
+            var cust1Url = 'http://localhost/StatelessGatewayWebAPIService/customers/' + 'ORCL' + '/' + 'addorupdate' + '/' + 'Oracle' + '/' + '95045' + '/' + 'CA' + '/' + 'US' + '/' + 'Larry Ellison' + '/' + 'larry.ellison@oracle.com';
+            var cust2Url = 'http://localhost/StatelessGatewayWebAPIService/customers/' + 'APPL' + '/' + 'addorupdate' + '/' + 'Apple' + '/' + '95015' + '/' + 'CA' + '/' + 'US' + '/' + 'Tim Cook' + '/' + 'tim.cook@apple.com';
+            var cust3Url = 'http://localhost/StatelessGatewayWebAPIService/customers/' + 'GOOG' + '/' + 'addorupdate' + '/' + 'Google' + '/' + '94105' + '/' + 'WA' + '/' + 'US' + '/' + 'Larry Page"' + '/' + 'larry.page@microsoft.com';
+            var cust4Url = 'http://localhost/StatelessGatewayWebAPIService/customers/' + 'AMAZ' + '/' + 'addorupdate' + '/' + 'Amazon' + '/' + '98047' + '/' + 'WA' + '/' + 'US' + '/' + 'Jeff Bezos' + '/' + 'jeff.bezos@microsoft.com';
+            var cust5Url = 'http://localhost/StatelessGatewayWebAPIService/customers/' + 'IBM' + '/' + 'addorupdate' + '/' + 'IBM' + '/' + '10504' + '/' + 'NY' + '/' + 'US' + '/' + 'Thomas J. Watson' + '/' + 'thomas.watson@microsoft.com';
+            var cust6Url = 'http://localhost/StatelessGatewayWebAPIService/customers/' + 'RS' + '/' + 'addorupdate' + '/' + 'Rennaissance' + '/' + '28750' + '/' + 'AK' + '/' + 'SP' + '/' + 'Cesar' + '/' + 'cesardl@microsoft.com';
+
+
+            var customerUrlArray = [];                                        
+            customerUrlArray.push(cust1Url);
+            customerUrlArray.push(cust2Url);
+            customerUrlArray.push(cust3Url);
+            customerUrlArray.push(cust4Url);
+            customerUrlArray.push(cust5Url);
+            customerUrlArray.push(cust6Url);
+
+            //url: 'http://localhost/wordcount/AddWord/' + randomWord()
+
+            //Add 94 random Customers
+            for (var i = 0 ; i < 94 ; i++) {
+                var tempCustUrl = 'http://localhost/StatelessGatewayWebAPIService/customers/' + randomWord() + '/' + 'addorupdate' + '/' + randomWord() + '/' + '12345' + '/' + randomWord() + '/' + randomWord() + '/' + randomWord() + '/' + randomWord() + '@' + randomWord() + '.com';
+                customerUrlArray.push(tempCustUrl);
+            }
+
+            for (var i = 0 ; i < customerUrlArray.length ; i++) {
+                $.ajax({
+                    url: customerUrlArray[i],
+                    method: 'POST'
+                })
+                .done(function (result) {
+                    $('#sendResult').html(result)
+                });
+            }
+                
+            function randomWord() {
+                var text = "";
+                var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+
+                for (var i = 0; i < 5; i++)
+                    text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+                return text;
+            }
+            
+        }
+
+    </script>
+
+    <button type="button"
+            onclick="GetPartitionsInfo()">
+        Get Partitions and Replicas Info
+    </button>
+
+    <button type="button"
+            onclick="SubmitCustomers()">
+        Add or Update Customers
+    </button>
+
+    <div id="partitionsInfoPlaceholder"></div>
+
+    <h1>Customer Data To Submit</h1>
+    <form id="form1">
+        <div>
+            <label for="date">Date of Submission</label>
+        </div>
+        <div>
+            <input id="date" name="date" type="text" value="27/4/2015" />
+        </div>
+        <div>
+            <label for="customerkey">Customer Key</label>
+        </div>
+        <div>
+            <input id="customerkey" name="customerkey" type="text" value="MSFT" />
+        </div>
+        <div>
+            <label for="companyname">Company Name</label>
+        </div>
+        <div>
+            <input id="companyname" name="companyname" type="text" value="Microsoft" />
+        </div>
+        <div>
+            <label for="statecode">State Code</label>
+        </div>
+        <div>            
+            <input id="statecode" name="statecode" type="text" value="WA" list=statelist>
+            <datalist id=statelist>
+                    <option> AL
+                    <option> AK
+                    <option> AZ
+                    <option> AR
+                    <option> CA
+                    <option> CO
+                    <option> CT
+                    <option> DE
+                    <option> FL
+                    <option> GA
+                    <option> HI
+                    <option> ID
+                    <option> IN
+                    <option> IL
+                    <option> IN
+                    <option> IA
+                    <option> KS
+                    <option> KY
+                    <option> LA
+                    <option> ME
+                    <option> MD
+                    <option> MA
+                    <option> MI
+                    <option> MN
+                    <option> MS
+                    <option> MO
+                    <option> MT
+                    <option> NE
+                    <option> NV
+                    <option> NH
+                    <option> NJ
+                    <option> NM
+                    <option> NY
+                    <option> NC
+                    <option> ND
+                    <option> OH
+                    <option> OK
+                    <option> OR
+                    <option> PA
+                    <option> RI
+                    <option> SC
+                    <option> SD
+                    <option> TN
+                    <option> TX
+                    <option> UT
+                    <option> VT
+                    <option> VA
+                    <option> WA
+                    <option> WV
+                    <option> WI
+                    <option> WY
+            </datalist>
+        </div>
+        <div>
+            <label for="countrycode">Country Code</label>
+        </div>
+        <div>
+            <input id="countrycode" name="countrycode" type="text" value="US" />
+        </div>
+        <div>
+            <label for="zipcode">Zip Code</label>
+        </div>
+        <div>
+            <input id="zipcode" name="zipcode" type="text" value="98052" />
+        </div>
+        <div>
+            <label for="contactfullname">Contact Full Name</label>
+        </div>
+        <div>
+            <input id="contactfullname" name="contactfullname" type="text" value="Cesar De la Torre" />
+        </div>
+        <div>
+            <label for="contactemail">Contact Email</label>
+        </div>
+        <div>
+            <input id="contactemail" name="contactemail" type="text" value="cesardl@microsoft.com" />
+        </div>
+
+        <div>
+            <input type="button" id="Save" value="Save" />
+            <!-- <input type="submit" value="Submit" /> -->
+        </div>
+                   
+    </form>
+
+    <div id="sendResult"></div>
+    
+</body>
+</html>
+
+
+
+
+
+
+

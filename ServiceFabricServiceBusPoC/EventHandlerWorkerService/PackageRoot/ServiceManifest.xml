@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ServiceManifest Name="EventHandlerServicePkg" Version="1.0" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ServiceTypes>
+    <StatelessServiceType ServiceTypeName="EventHandlerServiceType" />
+  </ServiceTypes>
+  <CodePackage Name="Code" Version="1.0">
+    <EntryPoint>
+      <ExeHost>
+        <Program>EventHandlerService.exe</Program>
+      </ExeHost>
+    </EntryPoint>
+  </CodePackage>
+  <Resources>
+    <Endpoints>
+      <Endpoint Name="ServiceEndpoint" />
+    </Endpoints>
+  </Resources>
+</ServiceManifest>

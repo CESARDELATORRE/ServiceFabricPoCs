@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ServiceManifest Name="StatefulWebAPIService" Version="1.0" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ServiceTypes>
+    <StatefulServiceType ServiceTypeName="StatefulWebAPIService" HasPersistedState="true" />
+  </ServiceTypes>
+  <CodePackage Name="Code" Version="1.0">
+    <EntryPoint>
+      <ExeHost>
+        <Program>StatefulWebAPIService.exe</Program>
+      </ExeHost>
+    </EntryPoint>
+  </CodePackage>
+  <Resources>
+    <Endpoints>
+      <Endpoint Name="ServiceEndpoint" Protocol="http" Type="Input" />
+      <Endpoint Name="ReplicatorEndpoint" />
+      <!--
+      <Endpoint Name="WebAPI_ServiceEndpoint" Protocol="http" Type="Input" />
+      -->
+    </Endpoints>
+  </Resources>
+</ServiceManifest>

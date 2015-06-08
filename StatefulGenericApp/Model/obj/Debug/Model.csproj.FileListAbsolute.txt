@@ -1,0 +1,4 @@
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\Model\bin\Debug\Model.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\Model\bin\Debug\Model.pdb
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\Model\obj\Debug\Model.dll
+E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\Model\obj\Debug\Model.pdb
