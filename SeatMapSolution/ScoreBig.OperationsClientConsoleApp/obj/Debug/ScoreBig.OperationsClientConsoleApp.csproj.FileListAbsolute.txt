@@ -1,0 +1,17 @@
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\ScoreBig.OperationsClientConsoleApp.exe.config
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\ScoreBig.OperationsClientConsoleApp.exe
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\ScoreBig.OperationsClientConsoleApp.pdb
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\obj\Debug\ScoreBig.OperationsClientConsoleApp.exe
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\obj\Debug\ScoreBig.OperationsClientConsoleApp.pdb
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\Microsoft.ServiceFabric.Data.dll
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\Microsoft.ServiceFabric.Services.dll
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\ScoreBig.SeatMapModel.dll
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\System.Fabric.Common.Internal.dll
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\System.Fabric.Common.Internal.Strings.dll
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\Microsoft.ServiceFabric.Replicator.dll
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\Microsoft.ServiceFabric.Collections.dll
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\Newtonsoft.Json.dll
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\Microsoft.ServiceFabric.Data.Log.dll
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\Microsoft.ServiceFabric.ReplicatedStore.dll
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\ScoreBig.SeatMapModel.pdb
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.OperationsClientConsoleApp\bin\Debug\en-us\System.Fabric.Common.Internal.Strings.resources.dll

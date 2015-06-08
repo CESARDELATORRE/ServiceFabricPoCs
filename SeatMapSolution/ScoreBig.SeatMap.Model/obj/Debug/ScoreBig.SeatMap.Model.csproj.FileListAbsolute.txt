@@ -1,0 +1,4 @@
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\ScoreBig.SeatMap.Model.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\ScoreBig.SeatMap.Model.pdb
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\obj\Debug\ScoreBig.SeatMap.Model.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\obj\Debug\ScoreBig.SeatMap.Model.pdb

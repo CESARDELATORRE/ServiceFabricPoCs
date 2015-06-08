@@ -1,0 +1,582 @@
+Id,Event,Venue,DateTime
+371b549e-ff50-469d-a899-2397d30db93d,5 Seconds of Summer,Xfinity Center - MA,8/28/2015 7:30:00 PM 
+35778e7f-489c-407c-a1de-d2760cc744e8,Anderson Cooper,Wang Theatre,3/21/2015 8:00:00 PM 
+cb9855d3-62f6-4b45-a0f9-76452c97f5c3,Ariana Grande,DCU Center (End Stage),3/15/2015 7:30:00 PM 
+393f888e-ab00-49be-ab6d-a9036052358c,Barry Manilow,TD Garden (End Stage),6/16/2015 7:30:00 PM 
+f824e69d-80ab-448a-afa5-6770968d1858,Bette Midler,TD Garden (End Stage),6/12/2015 8:00:00 PM 
+b8d7df06-0b48-4840-908d-707028eeba1b,Bill Burr ,Wilbur Theatre (End Stage with Reserved Tables),5/14/2015 9:45:00 PM 
+eeebcf92-eabe-4f51-9ce4-4d0ae6e8646e,Bill Burr (10pm),Wilbur Theatre (End Stage),5/15/2015 10:00:00 PM 
+cf40e007-aecd-4c6f-a41a-0388f04f8377,Bill Burr (7:15PM),Wilbur Theatre (End Stage),5/13/2015 7:15:00 PM 
+0d42a28e-84d6-4eab-993d-159ccdff66f2,Bill Burr (7:15PM),Wilbur Theatre (End Stage),5/14/2015 7:15:00 PM 
+374ef8ec-214e-4c7b-8fad-227569bd3c82,Bill Burr (9:45 pm),Wilbur Theatre (End Stage),5/9/2015 9:45:00 PM 
+0a104018-19be-43d9-8431-9fe85a4b69ee,Above and Beyond,House of Blues Boston,2/19/2015 7:00:00 PM 
+bc28ab43-d81c-424a-bf5a-fe5ca7de8e06,Bill Burr (7:15PM),Wilbur Theatre (End Stage),5/11/2015 7:15:00 PM 
+1729d00e-15cd-44fe-b870-82678353e3d8,Bill Burr (7:15PM),Wilbur Theatre (End Stage),5/12/2015 7:15:00 PM 
+105953e0-b38c-4768-9326-e00db52a49e8,Billy Joel,Fenway Park (Concert),7/16/2015 6:30:00 PM 
+329ab8e0-86f6-4b8c-8545-acdf21b29912,Blackberry Smoke,House of Blues Boston,3/27/2015 8:00:00 PM 
+ba93b5ed-b852-479d-87a3-882d8c68e97d,Blue Man Group,Charles Playhouse,2/6/2015 7:30:00 PM 
+85a91929-9f21-42a4-8e71-f602688cd800,Blue Man Group,Charles Playhouse,2/7/2015 5:00:00 PM 
+9c779aa3-d947-4655-beef-fb63b2b30c44,Blue Man Group,Charles Playhouse,2/7/2015 8:00:00 PM 
+a7183039-6423-4411-a3ff-db2f8bf81527,Blue Man Group,Charles Playhouse,2/8/2015 2:00:00 PM 
+6cf947af-a7ef-411c-b15c-dc0e108df73d,Blue Man Group,Charles Playhouse,2/8/2015 5:00:00 PM 
+acf29c7b-0861-4e1a-866c-552cde1fd9d5,Blue Man Group,Charles Playhouse,2/14/2015 11:00:00 AM 
+55865131-cce6-4932-b6af-43608591a4d3,Blue Man Group,Charles Playhouse,2/15/2015 2:00:00 PM 
+efa995f9-23f5-4673-b5a2-c32590dc6125,Blue Man Group,Charles Playhouse,2/20/2015 1:30:00 PM 
+f1cb34ae-1009-43bf-8bda-7ff88e6d87c8,Blue Man Group,Charles Playhouse,2/20/2015 7:30:00 PM 
+2d7efd9b-cd05-4d98-be6f-7c7c96f72a2f,Blue Man Group,Charles Playhouse,2/21/2015 2:00:00 PM 
+92a17281-681f-47e9-85ed-7b7ea7cab447,Blue Man Group,Charles Playhouse,2/22/2015 5:00:00 PM 
+0b86e50d-43fe-440e-852f-620d7ba82b86,Blue Man Group,Charles Playhouse,2/27/2015 7:30:00 PM 
+5d617852-6563-49e8-bf03-e996fdab5721,Blue Man Group,Charles Playhouse,2/28/2015 2:00:00 PM 
+cc2e1ed9-4a30-4a94-a1f9-a2c2567292e7,Blue Man Group,Charles Playhouse,2/28/2015 5:00:00 PM 
+6d43bc43-6198-42d2-871a-3d6cd8ba5647,Blue Man Group,Charles Playhouse,2/28/2015 8:00:00 PM 
+204d1deb-79d8-40d7-aed6-8b59426dc772,Blue Man Group,Charles Playhouse,2/16/2015 4:30:00 PM 
+79fe6607-876a-48b5-a545-6867fea6bdae,Blue Man Group,Charles Playhouse,2/18/2015 1:30:00 PM 
+1646d014-f334-4fc0-981a-e764c32579cd,Blue Man Group,Charles Playhouse,2/18/2015 4:30:00 PM 
+1bcafbc3-664a-4b85-ae8c-3542245219f2,Blue Man Group,Charles Playhouse,2/19/2015 1:30:00 PM 
+a1b206e0-fc62-4794-a450-aaa3592386e2,Blue Man Group,Charles Playhouse,2/21/2015 11:00:00 AM 
+5771d1be-f7d2-4763-a0d4-25969f22314d,Blue Man Group,Charles Playhouse,2/22/2015 2:00:00 PM 
+bf34d27a-0567-4ee9-9a35-55eca39c6288,Blue Man Group,Charles Playhouse,2/26/2015 7:30:00 PM 
+a122b3ee-ed83-4679-82c3-c517cff84335,Blue Man Group,Charles Playhouse,3/8/2015 2:00:00 PM 
+9c6e54eb-abc1-45db-9f9d-3f2ab04cef8c,Blue Man Group,Charles Playhouse,3/12/2015 7:30:00 PM 
+813eb78e-9d1a-4f4c-af23-fb8768c1b301,Blue Man Group,Charles Playhouse,3/13/2015 7:30:00 PM 
+19ee5b21-8b12-4ca6-9570-d0afcf81d981,Blue Man Group,Charles Playhouse,3/21/2015 11:00:00 AM 
+f9403e9f-7a18-4f59-a170-8517a89e20d9,Blue Man Group,Charles Playhouse,3/21/2015 2:00:00 PM 
+237e4608-23aa-4524-b5bc-fd418fcfcd4a,Blue Man Group,Charles Playhouse,3/21/2015 5:00:00 PM 
+61fe1ff3-3dd1-4cc8-8ad8-30af71b58835,Blue Man Group,Charles Playhouse,3/21/2015 8:00:00 PM 
+4eb0e5bd-b6fd-4265-a9e7-a35c5e1cb2b2,Blue Man Group,Charles Playhouse,3/22/2015 2:00:00 PM 
+86f73a69-2221-4f57-ae85-37b290bdb851,Blue Man Group,Charles Playhouse,3/26/2015 7:30:00 PM 
+e9a5997a-564f-42d5-ada1-48ae4e929831,Blue Man Group,Charles Playhouse,3/28/2015 2:00:00 PM 
+91bd7a57-be35-4c18-83e1-494c21d9049a,Blue Man Group,Charles Playhouse,3/28/2015 5:00:00 PM 
+23541df6-faea-42fb-9b02-ffa80b0b713a,Blue Man Group,Charles Playhouse,3/29/2015 2:00:00 PM 
+fde3ee3f-44ff-40af-bb9b-dadc68279ecc,Blue Man Group,Charles Playhouse,4/1/2015 7:30:00 PM 
+2a5fe808-5363-4e76-bab5-96e301847d14,Blue Man Group,Charles Playhouse,4/3/2015 7:30:00 PM 
+6ade625d-4f2b-4f1a-81f2-d50731ab47b1,Audra McDonald,Boston Symphony Hall,3/1/2015 5:00:00 PM 
+84011470-f130-4186-af36-ef3b54513e8a,Bill Burr,Wilbur Theatre (End Stage),5/13/2015 9:45:00 PM 
+3c69d6b5-a98c-47f6-9d91-e1d8be52892f,A Prairie Home Companion with Garrison Keillor,Koussevitzky Music Shed at Tanglewood,6/27/2015 5:45:00 PM 
+a0f3d680-2f7b-41e0-88ba-8cd1a5019d89,Blue Man Group,Charles Playhouse,2/7/2015 11:00:00 AM 
+8bbd4c34-ebac-4fc5-b630-daa0c3604ab8,Blue Man Group,Charles Playhouse,2/8/2015 8:00:00 PM 
+6c9c460c-2c9f-4960-a73c-a17e7b9bf8bd,Blue Man Group,Charles Playhouse,2/13/2015 7:30:00 PM 
+2336f71c-318b-4311-8fff-f610bd42bf84,Blue Man Group,Charles Playhouse,2/14/2015 8:00:00 PM 
+b50ea7d5-b87e-4368-8921-42e2b7b670f1,Blue Man Group,Charles Playhouse,3/1/2015 2:00:00 PM 
+24b9c7f7-acfd-40e4-87b0-971dd41d582b,Blue Man Group,Charles Playhouse,3/1/2015 5:00:00 PM 
+54a6e356-4a7f-4147-bdd0-e28744bae864,Blue Man Group,Charles Playhouse,3/14/2015 5:00:00 PM 
+2243e710-99cc-470a-a378-1c503ac70fe6,Blue Man Group,Charles Playhouse,3/14/2015 8:00:00 PM 
+cf7fe4bb-28c1-4483-9e7b-354a2a7b0bcb,Blue Man Group,Charles Playhouse,3/19/2015 7:30:00 PM 
+0e8bd265-4e57-4ea2-bb31-f6e4c1c3c0f3,Blue Man Group,Charles Playhouse,3/28/2015 11:00:00 AM 
+5fbcea14-a510-4752-a12c-9d973c67ce9b,Blue Man Group,Charles Playhouse,3/29/2015 5:00:00 PM 
+b9ae6567-e3d2-49e3-9b99-368c49ddfe98,Blue Man Group,Charles Playhouse,4/4/2015 2:00:00 PM 
+c88baff1-85e1-432a-bc39-c9613399b018,Blue Man Group,Charles Playhouse,4/4/2015 8:00:00 PM 
+4f4d80c1-b47a-4d54-8041-5dd4b099dc94,Blue Man Group,Charles Playhouse,4/5/2015 5:00:00 PM 
+d9d94d3a-2f42-4796-bf2e-2bc99d2245d3,Blue Man Group,Charles Playhouse,4/11/2015 2:00:00 PM 
+33d63114-dc1b-49c2-8481-68da52e23d3f,Blue Man Group,Charles Playhouse,4/12/2015 2:00:00 PM 
+cf2da30f-86b1-4812-bc04-55e5642ce83a,Blue Man Group,Charles Playhouse,4/16/2015 7:30:00 PM 
+0e799067-14d6-42dc-87ad-6ba270250b5b,Blue Man Group,Charles Playhouse,4/18/2015 5:00:00 PM 
+80b2a4d6-4f2c-4c2f-80f8-6d2d630c988b,Blue Man Group,Charles Playhouse,2/15/2015 5:00:00 PM 
+ea566d8a-f2d6-436e-8be2-bbca7f24b2a5,Blue Man Group,Charles Playhouse,2/16/2015 1:30:00 PM 
+1bb80798-be35-4391-ba9f-5c97c565a055,Blue Man Group,Charles Playhouse,2/17/2015 4:30:00 PM 
+65536ae8-c5df-4a5f-ab00-b5818ea3c540,Blue Man Group,Charles Playhouse,2/21/2015 8:00:00 PM 
+9d2fe73c-de48-4f71-983e-2bdef0e7c71e,Blue Man Group,Charles Playhouse,2/28/2015 11:00:00 AM 
+38c56150-84e8-4e17-83a7-b087f793dfa4,Blue Man Group,Charles Playhouse,3/7/2015 5:00:00 PM 
+7dd02922-1d75-468f-8e40-6240ec6b9a6d,Blue Man Group,Charles Playhouse,3/14/2015 11:00:00 AM 
+27bbaa70-0221-4c43-9e40-5eeefb8eb3f0,Blue Man Group,Charles Playhouse,3/14/2015 2:00:00 PM 
+10c8b9b8-6243-4fe7-abcc-e84db32c251c,Blue Man Group,Charles Playhouse,3/15/2015 5:00:00 PM 
+e5eea5d8-5702-47e6-b9d8-19728cdae9cb,Blue Man Group,Charles Playhouse,3/20/2015 7:30:00 PM 
+9c2cbc92-999c-4634-abe5-2fe64016b4a0,Blue Man Group,Charles Playhouse,4/10/2015 7:30:00 PM 
+d33e388a-a16d-4ad0-8583-a87f08a4c793,Blue Man Group,Charles Playhouse,4/11/2015 5:00:00 PM 
+144fb3c5-4c80-43d9-a444-918dd8b18fb3,Blue Man Group,Charles Playhouse,4/11/2015 8:00:00 PM 
+951faff1-3eff-4d1d-80c6-f6bcc48442ef,Blue Man Group,Charles Playhouse,4/15/2015 7:30:00 PM 
+df57bc06-4cd9-43b8-80e5-1d116db329fb,Blue Man Group,Charles Playhouse,4/17/2015 7:30:00 PM 
+09127679-6e4a-4cd6-9d6c-46d2bfdf4521,Blue Man Group,Charles Playhouse,4/18/2015 8:00:00 PM 
+6814e746-fc9f-4842-b5e0-12ab8461e7de,Blue Man Group,Charles Playhouse,4/19/2015 2:00:00 PM 
+0e27c1b0-7791-4a6f-94d7-97a693b59bdd,Blue Man Group,Charles Playhouse,4/22/2015 1:30:00 PM 
+31921c8b-5477-4715-89d9-31256c797140,Blue Man Group,Charles Playhouse,4/24/2015 1:30:00 PM 
+eb78b067-9487-4b4c-a05a-efddcfaf0f55,Blue Man Group,Charles Playhouse,4/25/2015 11:00:00 AM 
+c415d51a-de35-41de-98fd-32497792767a,Blue Man Group,Charles Playhouse,4/26/2015 5:00:00 PM 
+99f34101-947b-415b-a140-e25162ef1fa2,Blue Man Group,Charles Playhouse,4/29/2015 7:30:00 PM 
+7b86a4e0-ac8f-46d7-aafb-2321c66a8ae2,Blue Man Group,Charles Playhouse,5/2/2015 2:00:00 PM 
+8d284dbf-bdc3-49d3-8321-f7f7588cf63a,Blue Man Group,Charles Playhouse,5/2/2015 8:00:00 PM 
+9e7d4b8d-463c-43b6-b64b-75ad4863b518,Blue Man Group,Charles Playhouse,5/6/2015 7:30:00 PM 
+a46aaa79-7e62-4b07-b92a-1be4f967346e,Blue Man Group,Charles Playhouse,5/10/2015 5:00:00 PM 
+4b6d11ae-f5dc-44a8-b51e-7ac2885a65ee,Blue Man Group,Charles Playhouse,5/14/2015 7:30:00 PM 
+84d49bb0-c807-4a0e-afb8-5edbbb99c838,Blue Man Group,Charles Playhouse,5/16/2015 2:00:00 PM 
+bec40d4a-a0d5-4389-8458-f30da965e468,Bill Burr (9:45PM),Wilbur Theatre (End Stage),5/10/2015 9:45:00 PM 
+fc4fbd48-c8ac-46a3-a2df-2fad74b7b049,Blue Man Group,Charles Playhouse,2/5/2015 7:30:00 PM 
+3ef41ccf-2a1c-4c3e-85f1-97b153d65828,Blue Man Group,Charles Playhouse,2/7/2015 2:00:00 PM 
+d49153d0-efcf-4b88-b88c-35c582b6080b,Blue Man Group,Charles Playhouse,2/12/2015 7:30:00 PM 
+f01f5bed-c7bf-4d88-acaf-46297ef21491,Blue Man Group,Charles Playhouse,2/14/2015 2:00:00 PM 
+6457c0ef-221b-4edd-9c38-40e87b635c93,Blue Man Group,Charles Playhouse,2/14/2015 5:00:00 PM 
+0e32df48-7121-469c-a815-9d038f3c37e8,Blue Man Group,Charles Playhouse,2/19/2015 7:30:00 PM 
+9aa97ac4-b081-4ea4-92eb-2c49d9339ada,Blue Man Group,Charles Playhouse,2/19/2015 4:30:00 PM 
+7505d9ed-dc1f-4b23-b78b-8805e20b0109,Blue Man Group,Charles Playhouse,2/20/2015 4:30:00 PM 
+bc5b70a7-72b7-4ec4-8190-0d118a97fb15,Blue Man Group,Charles Playhouse,3/6/2015 7:30:00 PM 
+f012f5b4-e04b-4feb-ab0a-4b3bf689ff49,Blue Man Group,Charles Playhouse,3/7/2015 11:00:00 AM 
+80adb383-fd9b-426e-9c1d-58ae8c097c2b,Blue Man Group,Charles Playhouse,3/7/2015 2:00:00 PM 
+75f7251a-8085-4ba5-9fb7-1288c1646b85,Blue Man Group,Charles Playhouse,3/7/2015 8:00:00 PM 
+23f25a47-af39-4f69-b7ca-37c8f89e0191,Blue Man Group,Charles Playhouse,3/15/2015 2:00:00 PM 
+be0a3fcc-086b-47bc-acf0-89c1c687635e,Blue Man Group,Charles Playhouse,4/19/2015 5:00:00 PM 
+cfb9edde-1716-45cf-afdb-c2b118d4aa84,Blue Man Group,Charles Playhouse,4/21/2015 4:30:00 PM 
+cb3afa0d-79bd-414c-b74e-5e8694f401e9,Blue Man Group,Charles Playhouse,4/21/2015 7:30:00 PM 
+177ffbf3-150b-49fd-b0c0-fc22c8b2ea8a,Blue Man Group,Charles Playhouse,4/23/2015 7:30:00 PM 
+3a79f28a-e751-4b30-95da-aa0407bae87b,Blue Man Group,Charles Playhouse,4/25/2015 5:00:00 PM 
+4347a4fe-2514-4484-b75b-44fb7e3c7345,Blue Man Group,Charles Playhouse,4/25/2015 8:00:00 PM 
+9dcd4cf8-0b0f-4126-ac42-c4a6cda114f5,Blue Man Group,Charles Playhouse,5/7/2015 7:30:00 PM 
+1a16289f-23ff-4e70-a259-b611d1d02aa9,Blue Man Group,Charles Playhouse,5/13/2015 7:30:00 PM 
+b9c24433-eb11-4dd1-a041-bd5ae265c3f5,Blue Man Group,Charles Playhouse,5/16/2015 5:00:00 PM 
+94e038e7-e60d-43be-9338-def88775a66e,Blue Man Group,Charles Playhouse,5/17/2015 5:00:00 PM 
+5c63fb53-737f-46b8-97e9-5668c57be4f9,Blue Man Group,Charles Playhouse,5/19/2015 7:30:00 PM 
+2f62c8d0-2781-4f22-a691-85f815fc0dc5,Blue Man Group,Charles Playhouse,5/20/2015 7:30:00 PM 
+89a21c4f-9327-4592-8d72-e70995734fc5,Blue Man Group,Charles Playhouse,5/21/2015 7:30:00 PM 
+9c5722bd-33a7-41c2-878d-08b4193103f5,Blue Man Group,Charles Playhouse,5/22/2015 7:30:00 PM 
+ca20a54d-8efe-4059-86cc-96c1947c9c71,Blue Man Group,Charles Playhouse,5/23/2015 5:00:00 PM 
+3cd1e4c5-1676-4fc5-b4bd-64cf5edbfc4e,Blue Man Group,Charles Playhouse,5/24/2015 5:00:00 PM 
+d9dc02a6-aea2-4902-ad1b-26efeb26cd0d,Blue Man Group,Charles Playhouse,3/22/2015 5:00:00 PM 
+7d95885e-64e8-49f1-9335-2aa7041038db,Blue Man Group,Charles Playhouse,3/27/2015 7:30:00 PM 
+87c8ebce-f166-4e76-a4f2-31e54caff7d6,Blue Man Group,Charles Playhouse,4/2/2015 7:30:00 PM 
+0b538b65-2b4b-4c2c-92d0-c8cb62e0584c,Blue Man Group,Charles Playhouse,4/24/2015 4:30:00 PM 
+065738d1-c1d9-46fb-b0ce-b104be145940,Blue Man Group,Charles Playhouse,4/24/2015 7:30:00 PM 
+70263915-8d75-44a3-9832-292f6b5e1592,Blue Man Group,Charles Playhouse,4/25/2015 2:00:00 PM 
+197c99e3-df2a-4d58-abb2-b94364298328,Blue Man Group,Charles Playhouse,5/1/2015 7:30:00 PM 
+3ef4888b-e1c1-4bfe-8d6d-9c87eccac829,Blue Man Group,Charles Playhouse,5/9/2015 8:00:00 PM 
+860d0f2a-804a-4a0e-9982-05260440d555,Blue Man Group,Charles Playhouse,5/17/2015 2:00:00 PM 
+217974c1-4cb3-4e8f-a9ca-fc88848a3972,Blue Man Group,Charles Playhouse,5/23/2015 8:00:00 PM 
+781acc4c-def4-4339-8be2-376c8a636a85,Blue Man Group,Charles Playhouse,5/30/2015 2:00:00 PM 
+995374ae-0cfb-4ba4-81ab-86789ad6d2c3,Blue Man Group,Charles Playhouse,6/4/2015 7:30:00 PM 
+6b49e215-e5bf-40c6-8e38-924d43420e87,Blue Man Group,Charles Playhouse,6/5/2015 7:30:00 PM 
+7b8fc70c-1748-4da1-a343-49a843409f27,Blue Man Group,Charles Playhouse,6/6/2015 2:00:00 PM 
+dddef065-31c5-406d-8c0c-b42a38443449,Blue Man Group,Charles Playhouse,6/6/2015 5:00:00 PM 
+26aed2f9-61f1-43ff-9209-ae9d16be4de7,Blue Man Group,Charles Playhouse,6/10/2015 7:30:00 PM 
+d5df6cc8-be76-4b3c-af36-bb189beac8b8,Blue Man Group,Charles Playhouse,6/13/2015 2:00:00 PM 
+3364e835-cfe1-4c2c-8387-53ce46d0f95d,Blue Man Group,Charles Playhouse,6/14/2015 2:00:00 PM 
+91a2d4b1-b851-4e0f-915b-94ac0b71e1d7,Blue Man Group,Charles Playhouse,6/21/2015 2:00:00 PM 
+9f7c05fe-3afc-4965-9b65-f5de82b1ea85,Blue Man Group,Charles Playhouse,6/26/2015 7:30:00 PM 
+92b05343-6d9d-4ac2-9dd7-8e1b393b4865,Blue Man Group,Charles Playhouse,6/27/2015 5:00:00 PM 
+02af6062-9ab2-40ed-83e8-87a3041f9daf,Boston Beanpot Tournament - Consolation/Championship Game,TD Garden (Hockey),2/9/2015 4:30:00 PM 
+5ae0fd81-281c-47fa-9cf1-27ea4437fdc0,Blue Man Group,Charles Playhouse,2/21/2015 5:00:00 PM 
+309777d2-96ee-4bb0-83ab-536510737d8e,Blue Man Group,Charles Playhouse,3/28/2015 8:00:00 PM 
+d6858919-5e09-4995-95dc-7cef96aaaee9,Blue Man Group,Charles Playhouse,3/5/2015 7:30:00 PM 
+c499a559-d818-46a8-982f-d271a05b9847,Blue Man Group,Charles Playhouse,3/8/2015 5:00:00 PM 
+208e554c-fa44-4b87-aa71-2dcbc916e533,Blue Man Group,Charles Playhouse,4/8/2015 7:30:00 PM 
+50716213-f1a3-402b-ba5b-8dbaca240963,Blue Man Group,Charles Playhouse,4/9/2015 7:30:00 PM 
+cc9e34a5-247a-47a5-a600-92d78862d9b6,Blue Man Group,Charles Playhouse,4/5/2015 2:00:00 PM 
+06d735d4-08d0-4bb6-9aad-36ec73e5a9ef,Blue Man Group,Charles Playhouse,4/12/2015 5:00:00 PM 
+72d7469a-7e3b-43e6-ade8-c77bc9be36a1,Blue Man Group,Charles Playhouse,4/20/2015 4:30:00 PM 
+21adb926-0911-4d55-b838-7ba9373100df,Blue Man Group,Charles Playhouse,4/22/2015 7:30:00 PM 
+2d8e6166-e059-461d-a15b-1b0d2c24f380,Blue Man Group,Charles Playhouse,4/26/2015 2:00:00 PM 
+cacabac9-b1c8-49f7-b785-04e1553f4d9d,Blue Man Group,Charles Playhouse,4/30/2015 7:30:00 PM 
+25428714-28e4-4101-912a-f19a9a432052,Blue Man Group,Charles Playhouse,5/2/2015 5:00:00 PM 
+e593a5f4-3b7f-4d43-8f08-f4a1fb14a8b3,Blue Man Group,Charles Playhouse,5/3/2015 5:00:00 PM 
+17b23a53-0d42-47ec-9a7a-a86d396300fc,Blue Man Group,Charles Playhouse,5/9/2015 2:00:00 PM 
+60e26894-252b-4310-b35c-b06657585851,Blue Man Group,Charles Playhouse,5/9/2015 5:00:00 PM 
+0eb0cb28-0707-44f4-97ad-99b0528fc610,Blue Man Group,Charles Playhouse,5/10/2015 2:00:00 PM 
+58d782a6-86dc-4fcf-9ba7-f99b1fba070b,Blue Man Group,Charles Playhouse,5/16/2015 8:00:00 PM 
+78164115-727e-4665-899d-9856c1d3b37d,Blue Man Group,Charles Playhouse,5/12/2015 7:30:00 PM 
+20275599-8908-407e-affe-6d2b766d4f0e,Blue Man Group,Charles Playhouse,5/24/2015 2:00:00 PM 
+d297b0cf-015b-484f-b2b8-3b794d0daec6,Blue Man Group,Charles Playhouse,5/28/2015 7:30:00 PM 
+090517ba-f630-414f-8d8c-a4425579623d,Blue Man Group,Charles Playhouse,5/30/2015 5:00:00 PM 
+4751d878-5bd3-46e1-a7aa-2a91d906f65b,Blue Man Group,Charles Playhouse,5/31/2015 2:00:00 PM 
+e01a0016-942a-496b-bab2-800ac93763f4,Blue Man Group,Charles Playhouse,6/6/2015 8:00:00 PM 
+2d301b4e-e749-406c-805d-6e27fb02b7e8,Blue Man Group,Charles Playhouse,6/12/2015 7:30:00 PM 
+16213a7d-dd50-4df0-8f72-de0b0ce0c63f,Blue Man Group,Charles Playhouse,6/13/2015 5:00:00 PM 
+b11ead4b-e3bf-411e-9212-0a20c7a07550,Blue Man Group,Charles Playhouse,6/20/2015 5:00:00 PM 
+8b7a2fbe-68c7-43aa-b102-8f31b2085dcb,Blue Man Group,Charles Playhouse,6/24/2015 7:30:00 PM 
+f9e36386-580c-4859-855c-eb1d132c0420,Blue Man Group,Charles Playhouse,6/27/2015 2:00:00 PM 
+5052effe-4c44-4ebe-a96a-9d8dcaf58dce,Boston Bruins vs Anaheim Ducks,TD Garden (Hockey),3/26/2015 7:00:00 PM 
+1f3a87b0-af88-476a-830b-02d49f5fed49,Boston Bruins vs Arizona Coyotes,TD Garden (Hockey),2/28/2015 5:30:00 PM 
+f53b15a2-f6b3-4372-ad77-31313fee8adc,Blue Man Group,Charles Playhouse,4/4/2015 5:00:00 PM 
+b82941a7-6863-46e5-a13b-9f92ff2e8166,Blue Man Group,Charles Playhouse,4/18/2015 2:00:00 PM 
+9b58af73-b575-4328-ae42-28a384364d62,Blue Man Group,Charles Playhouse,4/22/2015 4:30:00 PM 
+f0ee4791-9c06-41e3-8b61-631718926f62,Blue Man Group,Charles Playhouse,5/3/2015 2:00:00 PM 
+d548c8be-c7bc-46f2-a64f-fe525716b9c8,Blue Man Group,Charles Playhouse,5/15/2015 7:30:00 PM 
+7564f7ce-2a39-437e-8a02-03a63e0d2046,Blue Man Group,Charles Playhouse,5/8/2015 7:30:00 PM 
+c0c5250e-f94d-46dc-b8fd-360ee86219dd,Blue Man Group,Charles Playhouse,5/23/2015 2:00:00 PM 
+9fbb3027-299c-4141-a2ea-ab4d79b5209e,Blue Man Group,Charles Playhouse,5/29/2015 7:30:00 PM 
+86be3085-9f93-42e3-a502-196c7e6774c6,Blue Man Group,Charles Playhouse,5/31/2015 5:00:00 PM 
+a9a34588-a195-44e0-88df-d2e8e560dac2,Blue Man Group,Charles Playhouse,6/2/2015 7:30:00 PM 
+590dc5d7-0817-4660-9877-c67cda80f4bf,Blue Man Group,Charles Playhouse,6/3/2015 7:30:00 PM 
+7055d632-4465-49df-8cbf-67611df6c4ce,Blue Man Group,Charles Playhouse,6/9/2015 7:30:00 PM 
+aeeba2f0-73b6-4fc4-99df-a411e77a6cb4,Blue Man Group,Charles Playhouse,6/11/2015 7:30:00 PM 
+e5648a70-40d6-414d-a411-02b48dced035,Blue Man Group,Charles Playhouse,6/13/2015 8:00:00 PM 
+1c6c77ed-5fe9-4f9a-9412-0dc6c21db0df,Blue Man Group,Charles Playhouse,6/14/2015 5:00:00 PM 
+007c3627-8b4a-4fb9-a160-cd9b96eb8d4a,Blue Man Group,Charles Playhouse,6/17/2015 7:30:00 PM 
+56701516-eaf0-4332-b56d-3541d22e904c,Blue Man Group,Charles Playhouse,6/18/2015 7:30:00 PM 
+64751844-be33-4e21-bc8f-70e3ca301758,Blue Man Group,Charles Playhouse,6/19/2015 7:30:00 PM 
+5d3c4595-d227-4c4c-9c72-ed1b8ea32fa7,Blue Man Group,Charles Playhouse,6/27/2015 8:00:00 PM 
+08ffd2be-c35e-4586-b16f-dbb3436b92bc,Blue Man Group,Charles Playhouse,6/28/2015 2:00:00 PM 
+4185fbb5-0945-4496-96d2-48b32252f893,Blue Man Group,Charles Playhouse,5/26/2015 7:30:00 PM 
+9ab042f7-5516-4605-b4d7-35e90d44ace0,Blue Man Group,Charles Playhouse,5/27/2015 7:30:00 PM 
+457c4b94-c91a-48f5-a90e-e6826e302e9b,Blue Man Group,Charles Playhouse,5/30/2015 8:00:00 PM 
+25d0173b-cf88-463e-909c-ddfa69f06140,Blue Man Group,Charles Playhouse,6/20/2015 2:00:00 PM 
+71c87d14-933f-468d-a49a-d3b0e90e902b,Blue Man Group,Charles Playhouse,6/25/2015 7:30:00 PM 
+5e3df876-b18a-489d-9c64-5e59efe33a8e,Boston Beanpot Tournament (Rescheduled from 2/2/15),TD Garden (Hockey),2/3/2015 5:00:00 PM 
+30daf141-e939-4c9c-a7ef-8c13c4b7fa99,Boston Bruins vs Buffalo Sabres,TD Garden (Hockey),3/17/2015 7:00:00 PM 
+72fc7768-5305-4246-bd7b-b8272f4b1708,Blue Man Group,Charles Playhouse,6/7/2015 5:00:00 PM 
+1ac7219b-8520-4874-a74a-4bd975c6f767,Blue Man Group,Charles Playhouse,6/20/2015 8:00:00 PM 
+0987c3be-8178-4201-a114-53b336e0aa54,Boston Bruins vs Calgary Flames,TD Garden (Hockey),3/5/2015 7:00:00 PM 
+b35e4013-4154-40e0-b890-e4139be558c4,Boston Bruins vs Dallas Stars,TD Garden (Hockey),2/10/2015 7:00:00 PM 
+b5000bab-cf87-41b6-b9a5-d87083bd3879,Boston Bruins vs Detroit Red Wings,TD Garden (Hockey),3/8/2015 7:30:00 PM 
+50468581-b920-4886-bf1a-ad75fd0223b5,Boston Bruins vs Florida Panthers,TD Garden (Hockey),3/31/2015 7:00:00 PM 
+7151bffb-6761-4ce1-acf6-eb3afc54fb02,Boston Bruins vs Montreal Canadiens,TD Garden (Hockey),2/8/2015 7:30:00 PM 
+80e5ef23-d5a9-444b-8c45-d8632a194e3a,Boston Bruins vs New York Islanders,TD Garden (Hockey),2/7/2015 7:00:00 PM 
+7b88939f-d37e-4e88-ba96-cb721e37dbea,Boston Bruins vs New York Rangers,TD Garden (Hockey),3/28/2015 1:00:00 PM 
+b672ab40-062d-487d-9507-74a75f1d43fb,Boston Bruins vs Philadelphia Flyers,TD Garden (Hockey),3/7/2015 1:00:00 PM 
+57b7fc60-b0ab-44f2-be01-e9373c43ba13,Boston Bruins vs Tampa Bay Lightning,TD Garden (Hockey),3/12/2015 7:00:00 PM 
+872b1912-c80c-4242-822d-05d69be06224,Boston Bruins vs Toronto Maple Leafs,TD Garden (Hockey),4/4/2015 7:00:00 PM 
+4195daab-8de9-42f2-8818-61f94ab0be0f,Boston Bruins vs Vancouver Canucks,TD Garden (Hockey),2/24/2015 7:00:00 PM 
+a923daa5-7fc5-454c-8d48-63cb37a38230,Boston Calling Music Festival - Friday Only,Boston City Hall Plaza,5/22/2015 6:00:00 PM 
+90fc0538-6298-4429-aba4-022bf810489b,Boston Calling Music Festival - Saturday Only,Boston City Hall Plaza,5/23/2015 12:00:00 PM 
+baf97f96-5d61-424e-8613-c611e5d98993,Boston Calling Music Festival - Sunday Only,Boston City Hall Plaza,5/24/2015 12:00:00 PM 
+c8c2002e-c932-45a1-9061-42b98e48dfe4,Boston Celtics vs Atlanta Hawks,TD Garden (Basketball),2/11/2015 7:30:00 PM 
+90523241-85ec-4fc1-b1ff-ed6b0aa2d057,Boston Celtics vs Charlotte Hornets,TD Garden (Basketball),2/27/2015 7:30:00 PM 
+ac4160dc-8666-4131-8fd7-df20a17df743,Boston Celtics vs Cleveland Cavaliers,TD Garden (Basketball),4/12/2015 3:00:00 PM 
+d6918116-8dce-4135-9e5b-73b0a8f7abc3,Boston Celtics vs Denver Nuggets,TD Garden (Basketball),2/4/2015 7:30:00 PM 
+a2734edc-393d-4e9f-b620-aaf26efb6e1b,Boston Celtics vs Detroit Pistons,TD Garden (Basketball),3/22/2015 6:00:00 PM 
+2e0787bd-458c-4dba-92a4-8cd06b4be679,Boston Celtics vs Golden State Warriors,TD Garden (Basketball),3/1/2015 6:00:00 PM 
+fbad4b00-1dbc-4d91-bdc7-80106bd5d8ef,Boston Celtics vs Indiana Pacers,TD Garden (Basketball),4/1/2015 7:30:00 PM 
+939f93d5-e29d-4ba5-9cca-ad5feabcfc51,Boston Celtics vs Los Angeles Clippers,TD Garden (Basketball),3/29/2015 6:00:00 PM 
+fbe86b2d-d2ed-47f9-8233-c1393a2b9f39,Boston Celtics vs Memphis Grizzlies,TD Garden (Basketball),3/11/2015 7:30:00 PM 
+03fb0c63-7e42-4b41-b09a-b1aecec58ad6,Boston Celtics vs Miami Heat ,TD Garden (Basketball),3/25/2015 7:30:00 PM 
+a04bcacf-5d37-4b82-bd6e-e79a5eaef998,Boston Celtics vs Milwaukee Bucks,TD Garden (Basketball),4/3/2015 7:30:00 PM 
+48f5d3b2-68c7-4baf-aeae-a05abafc99a4,Boston Celtics vs New York Knicks,TD Garden (Basketball),2/25/2015 7:30:00 PM 
+fb45e273-2419-4ec9-a52e-96db118a7f1f,Boston Celtics vs Orlando Magic,TD Garden (Basketball),3/13/2015 7:30:00 PM 
+3a80104d-1225-49cf-bdda-af74c0637e87,Boston Celtics vs Philadelphia 76ers,TD Garden (Basketball),2/6/2015 7:30:00 PM 
+9da745db-0b35-4993-b148-4f9c6576f39e,Boston Celtics vs Philadelphia 76ers,TD Garden (Basketball),3/16/2015 7:30:00 PM 
+89c9a302-1cb9-4c67-be1a-d2b9b49b2bc8,Boston Celtics vs Toronto Raptors,TD Garden (Basketball),4/14/2015 7:30:00 PM 
+d825689f-dbd7-4d8d-a55d-6a02d4674fbe,Boston Celtics vs Utah Jazz,TD Garden (Basketball),3/4/2015 7:30:00 PM 
+21fcc7d2-7b56-4d14-a2d2-472a1098eea9,Boston College Eagles Hockey vs Umass Lowell Riverhawks,Silvio O. Conte Forum,2/20/2015 7:30:00 PM 
+c811b5a3-6d12-40fd-baf5-80e06a73e740,Boston Red Sox vs Atlanta Braves,Fenway Park (Baseball),6/15/2015 7:10:00 PM 
+d11908bb-dfd2-4877-a78a-ec98d03b56cb,Boston Red Sox vs Atlanta Braves,Fenway Park (Baseball),6/16/2015 4:05:00 PM 
+c6b6cfe5-9966-49fc-bfb4-a6cb04a1014f,Boston Red Sox vs Atlanta Braves (Preseason),JetBlue Park,3/17/2015 1:05:00 PM 
+daeda09f-9d86-47a0-9f34-af9e06ee14c6,Boston Red Sox vs Baltimore Orioles,Fenway Park (Baseball),4/17/2015 7:10:00 PM 
+7012d3c4-5aaf-4406-beab-4ffe23d6146d,Boston College Eagles vs North Carolina State Wolf Pack,Conte Forum (Basketball),2/28/2015 12:00:00 PM 
+0517bc59-f6a2-441b-a838-c60eb13a7824,Boston College Eagles vs North Carolina Tar Heels,Conte Forum (Basketball),2/7/2015 3:00:00 PM 
+188ccc34-400a-4b90-96d4-987591445c90,Boston College Eagles vs Syracuse Orange,Conte Forum (Basketball),2/11/2015 7:00:00 PM 
+9a94f1e0-a393-4c4c-b850-af593eb61145,Boston College Eagles vs Wake Forest Demon Deacons,Conte Forum (Basketball),3/7/2015 2:00:00 PM 
+71f0c0f0-788c-4639-93e7-3ca8b50dca7e,Boston Red Sox vs Baltimore Orioles,Fenway Park (Baseball),4/20/2015 11:05:00 AM 
+cce1face-d54a-46ec-9503-d5a182a0a01e,Boston Red Sox vs Baltimore Orioles,Fenway Park (Baseball),6/23/2015 7:10:00 PM 
+4ab88254-fbb6-49f3-8c90-745c5a9507db,Boston Red Sox vs Baltimore Orioles,Fenway Park (Baseball),6/24/2015 7:10:00 PM 
+b6f69d90-0981-4cc2-a88b-1f2764e610bb,Boston Red Sox vs Baltimore Orioles,Fenway Park (Baseball),6/25/2015 1:35:00 PM 
+50cd6a66-ac2c-4615-8c51-7caa3abc6255,Boston Red Sox vs Baltimore Orioles,Fenway Park (Baseball),9/25/2015 7:10:00 PM 
+59588cc0-7e62-4eb2-b338-3e574a00555d,Boston Red Sox vs Chicago White Sox,Fenway Park (Baseball),7/27/2015 7:10:00 PM 
+eef67725-0e03-4d9a-9f53-ca2745ae1467,Boston Red Sox vs Chicago White Sox,Fenway Park (Baseball),7/28/2015 7:10:00 PM 
+4cb58e9a-b606-4a7b-bc6a-54c89781c44b,Boston Red Sox vs Chicago White Sox,Fenway Park (Baseball),7/29/2015 7:10:00 PM 
+5d521be4-bf90-430b-a32b-471a3feed7b7,Boston Red Sox vs Chicago White Sox,Fenway Park (Baseball),7/30/2015 7:10:00 PM 
+8710c5d3-565b-4fb8-ba83-4ce7efda5878,Boston Red Sox vs Cleveland Indians,Fenway Park (Baseball),8/17/2015 7:10:00 PM 
+6edac74e-9d68-482e-bc3c-20651b6a8a22,Boston Red Sox vs Cleveland Indians,Fenway Park (Baseball),8/18/2015 7:10:00 PM 
+fa2cc86a-ec2c-43f5-bca9-973bf3850555,Boston Red Sox vs Cleveland Indians,Fenway Park (Baseball),8/19/2015 7:10:00 PM 
+de3c499e-c634-41be-b0c0-b5ebe74fb071,Boston Red Sox vs Detroit Tigers,Fenway Park (Baseball),7/24/2015 7:10:00 PM 
+369a50b2-6aa8-45f3-86a7-bee65907d631,Boston Red Sox vs Houston Astros,Fenway Park (Baseball),7/3/2015 7:10:00 PM 
+cfb8a1fe-c477-40ec-a57b-32d18bce9f47,Boston Red Sox vs Houston Astros,Fenway Park (Baseball),7/4/2015 1:35:00 PM 
+01cc99c1-63da-4484-a0cc-c31a6d851bee,Boston Red Sox vs Baltimore Orioles (Preseason),JetBlue Park,3/20/2015 1:05:00 PM 
+ac9701ff-1995-47e4-8a3c-6257a527f874,Boston Red Sox vs Kansas City Royals,Fenway Park (Baseball),8/20/2015 7:10:00 PM 
+d3a73126-8cbc-4484-978b-68deeebd2ec7,Blue Man Group,Charles Playhouse,6/21/2015 5:00:00 PM 
+e22d9dbe-0b5c-40c2-ade4-5ea478240c7c,Boston Red Sox vs Kansas City Royals,Fenway Park (Baseball),8/21/2015 7:10:00 PM 
+ef5c0fc9-c29a-49ad-a844-f4c1f4a4c850,Boston Red Sox vs Los Angeles Angels,Fenway Park (Baseball),5/22/2015 7:10:00 PM 
+578d95ff-8caf-462e-972a-141a8a86f61a,Boston Red Sox vs Los Angeles Angels,Fenway Park (Baseball),5/23/2015 7:15:00 PM 
+fd1707c0-e542-4460-8008-a93293555ad8,Boston Red Sox vs Miami Marlins,Fenway Park (Baseball),7/7/2015 7:10:00 PM 
+f4afc1e7-e703-409f-846b-461ed0e3d834,Boston Red Sox vs Miami Marlins,Fenway Park (Baseball),7/8/2015 7:10:00 PM 
+e22b1668-2091-4067-b417-28268732645f,Boston Red Sox vs Miami Marlins (Preseason),JetBlue Park,3/6/2015 1:05:00 PM 
+eab356a5-e6e0-475d-9264-fd946f2f8535,Boston Red Sox vs Minnesota Twins,Fenway Park (Baseball),6/1/2015 7:10:00 PM 
+97581205-9dd2-47b1-a0ab-e7c6864694a8,Boston Red Sox vs Minnesota Twins,Fenway Park (Baseball),6/2/2015 7:10:00 PM 
+5802fb8a-54da-48e0-ace5-e912f268301e,Boston Red Sox vs Minnesota Twins,Fenway Park (Baseball),6/3/2015 7:10:00 PM 
+8c5c6660-cbc5-4031-9052-e94008d28c75,Boston Red Sox vs Minnesota Twins,Fenway Park (Baseball),6/4/2015 4:05:00 PM 
+c60d4567-8a9f-4d30-914f-a525a8a1531a,Boston Red Sox vs Minnesota Twins (Preseason),JetBlue Park,3/7/2015 1:05:00 PM 
+171059a0-cf73-49cc-88d7-d11b05b35242,Boston Red Sox vs Minnesota Twins (Preseason),JetBlue Park,4/3/2015 7:05:00 PM 
+2c67e4bb-07ca-4784-850f-4cab3fb164a6,Boston Red Sox vs New York Yankees,Fenway Park (Baseball),5/1/2015 7:10:00 PM 
+67b2d1b6-46a0-4189-9009-187658b0eea9,Boston Red Sox vs Minnesota Twins (Preseason),JetBlue Park,3/26/2015 1:05:00 PM 
+3517952c-19e9-4f00-912a-876cffab6614,Boston Red Sox vs Minnesota Twins (Preseason),JetBlue Park,3/30/2015 7:05:00 PM 
+ca68cbbc-276d-4a32-92a1-6b51da1335cc,Boston Red Sox vs Minnesota Twins (Preseason),JetBlue Park,3/18/2015 1:05:00 PM 
+e69a2f8e-b9df-4345-b4a3-7100354007ed,Boston Red Sox vs New York Mets (Preseason),JetBlue Park,3/16/2015 1:05:00 PM 
+7f2351ba-43f1-4251-b382-77008690d4f9,Boston Red Sox vs New York Yankees,Fenway Park (Baseball),7/10/2015 7:10:00 PM 
+a201a089-6d05-472c-a924-ecbc5485aed9,Boston Red Sox vs New York Yankees,Fenway Park (Baseball),7/11/2015 7:15:00 PM 
+5937bfa4-9c5f-40af-b3ff-48e180844d06,Boston Red Sox vs New York Yankees,Fenway Park (Baseball),8/31/2015 7:10:00 PM 
+c1f08bfe-9154-450d-a3f3-53ad86c2b964,Boston Red Sox vs New York Yankees,Fenway Park (Baseball),9/1/2015 7:10:00 PM 
+091576b7-36a1-4972-a5b4-ead8586cfa50,Boston Red Sox vs New York Yankees,Fenway Park (Baseball),9/2/2015 4:05:00 PM 
+a98776a4-9981-4047-a2fa-de5ce78010f9,Boston Red Sox vs New York Yankees (Preseason),JetBlue Park,3/13/2015 7:05:00 PM 
+5a2d42f1-a6df-42c1-968a-1f7b5d02461f,Boston Red Sox vs Oakland Athletics,Fenway Park (Baseball),6/5/2015 7:10:00 PM 
+5f5174bb-558a-469d-be21-03a59212aac4,Boston Red Sox vs Northeastern University - Boston Red Sox vs Boston College Eagles,JetBlue Park,3/3/2015 1:05:00 PM 
+6d81d42f-3351-469a-8d7c-b063acb73a0e,Boston Red Sox vs Oakland Athletics,Fenway Park (Baseball),6/6/2015 4:05:00 PM 
+94843229-409d-461b-ab24-425b00c2358b,Boston Red Sox vs Philadelphia Phillies,Fenway Park (Baseball),9/4/2015 7:10:00 PM 
+98472546-2488-4448-be11-a5e3041e4a68,Boston Red Sox vs Pittsburgh Pirates (Preseason),JetBlue Park,3/14/2015 1:05:00 PM 
+2484ef0d-eecf-4d95-bc9c-5d22f1d78801,Boston Red Sox vs Seattle Mariners,Fenway Park (Baseball),8/14/2015 7:10:00 PM 
+dc54842a-3d1d-46e8-8a95-da704cebca78,Boston Red Sox vs Tampa Bay Rays,Fenway Park (Baseball),5/4/2015 7:10:00 PM 
+7c8c29bc-6e9e-4879-b9ea-e1e55d3c068e,Boston Red Sox vs Tampa Bay Rays,Fenway Park (Baseball),5/5/2015 7:10:00 PM 
+4f5a48e4-d51a-42c1-ae2c-6c845e9c3fec,Boston Red Sox vs Tampa Bay Rays,Fenway Park (Baseball),5/6/2015 7:10:00 PM 
+b7e597de-400c-41df-a6c1-4038dbcc7f6f,Boston Red Sox vs Tampa Bay Rays,Fenway Park (Baseball),7/31/2015 7:10:00 PM 
+d46fd67d-6f49-4cd5-bf84-67c93a5c5b95,Boston Red Sox vs Tampa Bay Rays,Fenway Park (Baseball),9/21/2015 7:10:00 PM 
+05c80d72-3e84-413b-8a7c-a26675827292,Boston Red Sox vs Tampa Bay Rays,Fenway Park (Baseball),9/22/2015 7:10:00 PM 
+88b55d2b-4f1f-4bf1-8ec3-671496a5c720,Boston Red Sox vs Tampa Bay Rays,Fenway Park (Baseball),9/23/2015 7:10:00 PM 
+804e1a04-171e-40aa-b64b-edc763de24de,Boston Red Sox vs Tampa Bay Rays,Fenway Park (Baseball),9/24/2015 7:10:00 PM 
+5f994ab0-2aef-4f7a-ab06-e20d2c4b56f5,Boston Red Sox vs Tampa Bay Rays (Preseason),JetBlue Park,3/10/2015 1:05:00 PM 
+a0397277-8419-4eec-b32b-892e554318b3,Boston Red Sox vs Tampa Bay Rays (Preseason),JetBlue Park,3/29/2015 1:05:00 PM 
+763c5d81-70eb-4ec0-a428-ae5aa488ddc4,Boston Red Sox vs Texas Rangers,Fenway Park (Baseball),5/19/2015 7:10:00 PM 
+59ca6372-67ca-4d58-b242-6e0dd56f09c9,Boston Red Sox vs Philadelphia Phillies (Preseason),JetBlue Park,3/22/2015 1:05:00 PM 
+cc7a7c2e-959c-40cf-a8d7-bc206fcc89fe,Boston Red Sox vs St Louis Cardinals (Preseason),JetBlue Park,3/23/2015 1:05:00 PM 
+0dd0005c-46bd-4866-907f-56f9804a4326,Boston Red Sox vs Texas Rangers,Fenway Park (Baseball),5/20/2015 7:10:00 PM 
+abc857a3-b1f7-4d0a-bc59-ccb8da6a3c2e,Boston Red Sox vs Texas Rangers,Fenway Park (Baseball),5/21/2015 7:10:00 PM 
+87950ecd-3bec-4a7c-8e12-d8db5659984b,Boston Red Sox vs Toronto Blue Jays,Fenway Park (Baseball),4/27/2015 6:10:00 PM 
+ad6efd8e-7e85-4ad7-8a89-b967cec8f94e,Boston Red Sox vs Toronto Blue Jays,Fenway Park (Baseball),4/28/2015 6:10:00 PM 
+68dbbe79-0537-4f6a-aa7d-439729863f97,Boston Red Sox vs Toronto Blue Jays,Fenway Park (Baseball),4/29/2015 6:10:00 PM 
+872edf68-04f6-4f3d-b304-592e703eeed1,Boston Red Sox vs Toronto Blue Jays,Fenway Park (Baseball),6/12/2015 7:10:00 PM 
+2590b820-54ac-4781-871b-2d616e726852,Boston Red Sox vs Toronto Blue Jays,Fenway Park (Baseball),6/13/2015 1:35:00 PM 
+b4af9dac-98f3-4385-981c-ab56e598c425,Boston Red Sox vs Toronto Blue Jays,Fenway Park (Baseball),9/7/2015 1:35:00 PM 
+655d36c9-bb89-4294-a86d-6f97a4233a8e,Boston Red Sox vs Toronto Blue Jays,Fenway Park (Baseball),9/8/2015 7:10:00 PM 
+3c9c4db7-fdbd-4dc2-bc52-8168cd307b12,Boston Red Sox vs Toronto Blue Jays,Fenway Park (Baseball),9/9/2015 7:10:00 PM 
+a170c61a-9219-4be7-b2e5-edd875a70ed1,Boston Red Sox vs Washington Nationals,Fenway Park (Baseball),4/13/2015 3:05:00 PM 
+2834eed7-4bf1-4701-9eaa-8c5fec73500b,Boston Red Sox vs Washington Nationals,Fenway Park (Baseball),4/14/2015 6:10:00 PM 
+018e6f21-c018-479a-8758-1913a8eea281,Boston Red Sox vs Washington Nationals (Jackie Robinson Day),Fenway Park (Baseball),4/15/2015 1:35:00 PM 
+8910eb51-d91a-4d30-89a3-89c754b33aa6,Boston University Terriers vs New Hampshire Wildcats,Agganis Arena (Hockey),2/13/2015 7:00:00 PM 
+49a32660-d73e-416b-839b-b83d3f6ffb8e,Boston University Terriers vs Notre Dame Fighting Irish,Agganis Arena (Hockey),2/20/2015 7:30:00 PM 
+f708e624-9a94-4c50-80ac-d79b6ae5aef4,Boston University Terriers vs Notre Dame Fighting Irish,Agganis Arena (Hockey),2/21/2015 7:00:00 PM 
+5aeeefae-5552-4b54-a2ea-d451d141d382,Chayanne,Agganis Arena,8/9/2015 7:00:00 PM 
+9a6bd50e-9897-4f63-94e6-683a3b277723,Chicago Blackhawks vs Carolina Hurricanes,United Center (Hockey),3/2/2015 7:30:00 PM 
+c60ca6f3-c6dc-44f1-8f86-bc99a96ca2c3,Chicago Blackhawks vs Florida Panthers,United Center (Hockey),2/24/2015 7:30:00 PM 
+306d7bad-6147-4a9e-9dee-456846a01001,Chicago Blackhawks vs Minnesota Wild,United Center (Hockey),4/7/2015 7:30:00 PM 
+6cca6475-f24d-4251-acb0-46802c636ff0,Cold War Kids,House of Blues Boston,3/21/2015 6:00:00 PM 
+c6bef3fe-f0fd-4a7d-b65a-f7425ca5eea4,Crosby Stills and Nash,Wang Theatre,5/19/2015 7:30:00 PM 
+6480fb70-d5f5-42ce-b3d8-9c8dce9adbc6,Diana Krall (Rescheduled from 12/02/2014),Citi Shubert Theatre,2/25/2015 8:00:00 PM 
+c19dfb21-38d3-4c37-812d-614faf7bd924,Dirty Dancing,Colonial Theatre Boston,4/28/2015 7:30:00 PM 
+244a392a-9ef1-4aeb-8a63-b9f43028ac5a,Dirty Dancing,Colonial Theatre Boston,5/2/2015 8:00:00 PM 
+cec15122-7227-448e-a86b-cd6f4ab041fc,Dirty Dancing,Colonial Theatre Boston,5/3/2015 1:00:00 PM 
+5300ba96-e8c7-4504-9a6a-aea95d3b9caf,Dirty Dancing,Colonial Theatre Boston,5/3/2015 6:30:00 PM 
+abd8fc9b-d0f5-4f29-a0e1-699a49784e35,Dirty Dancing,Colonial Theatre Boston,5/7/2015 8:00:00 PM 
+1477662d-95dc-4801-b612-ff05e37523af,Dirty Dancing,Colonial Theatre Boston,5/9/2015 2:00:00 PM 
+7923ece3-777a-4ad3-a6c6-639c3876e21b,Dirty Dancing,Colonial Theatre Boston,5/9/2015 8:00:00 PM 
+bfc29871-f175-4e20-b176-8c010ce98223,Dirty Dancing,Colonial Theatre Boston,5/10/2015 1:00:00 PM 
+a9a93685-cafb-404b-9536-cb5bfdfc6910,Disney On Ice: Frozen,TD Garden (Ice Show),2/14/2015 11:00:00 AM 
+748fc9a4-de1d-4dba-80ab-a0ab07d0c638,Disney On Ice: Frozen,TD Garden (Ice Show),2/14/2015 3:00:00 PM 
+15ee5092-e28a-4d0e-9454-9b87a67df50a,Disney On Ice: Frozen,TD Garden (Ice Show),2/16/2015 3:00:00 PM 
+4dea7221-fbcf-4a15-aeef-84823eb96280,Disney On Ice: Frozen,TD Garden (Ice Show),2/21/2015 11:00:00 AM 
+620e8a88-260b-4112-b5c8-a363d989d31b,Disney On Ice: Frozen,TD Garden (Ice Show),2/22/2015 1:00:00 PM 
+d98c9ed7-adaf-4518-9fb1-a54de71b2dcb,Dropkick Murphys,House of Blues Boston,3/12/2015 6:00:00 PM 
+0c06d436-7e1a-4baf-a6b2-bc3c864883d9,Dropkick Murphys,House of Blues Boston,3/13/2015 6:00:00 PM 
+0943553e-7403-41a5-a6aa-c2b4fc95ed2a,Dropkick Murphys,House of Blues Boston,3/14/2015 6:00:00 PM 
+e3a249b4-fd99-4768-bdf8-5461ffd26cb1,Dropkick Murphys,House of Blues Boston,3/15/2015 6:00:00 PM 
+059caf7a-d433-40da-99fa-b6a1bb884d58,Faith No More,Orpheum Theatre - MA,5/11/2015 7:30:00 PM 
+bcee5673-0099-449d-a7be-9305f90b0fc7,Fall Out Boy and Wiz Khalifa,Xfinity Center - MA,6/14/2015 7:00:00 PM 
+9930b434-8767-4b2b-be9b-fb53217e83be,Fifth Harmony,Wilbur Theatre (End Stage),3/24/2015 7:00:00 PM 
+4f7327f1-ca12-47b2-b60c-37917cf71282,Florida Georgia Line,Mohegan Sun Arena,2/21/2015 7:30:00 PM 
+5ce827ed-db33-44ee-8cb5-e6437c9cb0fb,Foo Fighters,Fenway Park (Concert),7/18/2015 6:00:00 PM 
+9f26fc66-73df-49ce-b528-655e7b01c612,Foo Fighters ,Fenway Park (Concert),7/19/2015 6:00:00 PM 
+597ab1e3-035e-438f-ab15-a59dd7ed2286,G Love and Special Sauce ,House of Blues Boston,3/7/2015 6:00:00 PM 
+ca10789c-2fba-4f4b-a364-85ae12fc9f41,Harlem Globetrotters,TD Garden (Basketball),3/28/2015 7:30:00 PM 
+090d8b65-9486-4e15-af29-ea89bc5b8c73,Harlem Globetrotters,TD Garden (Basketball),3/29/2015 1:00:00 PM 
+39ee4bfb-5b7c-4c36-94c9-e70bb0b72866,Harvard Crimson vs Pennsylvania Quakers,Lavietes Pavilion (Harvard),2/20/2015 7:00:00 PM 
+c702ae20-bce4-40d8-b072-d8a59cb4825f,Hockey East Finals,TD Garden (Hockey),3/21/2015 7:00:00 PM 
+ffeef016-f6fe-4e03-8ef1-67a68ca73e08,Hockey East Semi-Finals,TD Garden (Hockey),3/20/2015 5:00:00 PM 
+0c270e02-e552-48b0-bf85-79b9461bac61,Idina Menzel,Blue Hills Bank Pavillion (End Stage),8/28/2015 8:00:00 PM 
+e5fad238-cc2f-41e7-b4e4-bd72d73053e1,Impractical Jokers,Wilbur Theatre (End Stage),4/3/2015 7:30:00 PM 
+43926734-f9ad-4b68-9b1d-1a70d3e0463a,Impractical Jokers,Wilbur Theatre (End Stage),6/19/2015 10:00:00 PM 
+32c3ca44-1ca9-45de-bdb3-bf565cf5eaf8,Interpol (Rescheduled from 11/21/2014),House of Blues Boston,7/23/2015 7:00:00 PM 
+3b246169-a73c-4045-90b0-d43ca03488a0,James Taylor,Fenway Park (Concert),8/6/2015 5:00:00 PM 
+1f64697d-033e-4dbb-b438-4852949de934,Jeff Beck,Orpheum Theatre - MA,4/19/2015 7:30:00 PM 
+98086971-d3b9-4a4a-bc2f-f356504ac6fa,Jesse Cook,Wilbur Theatre (End Stage),3/11/2015 7:30:00 PM 
+461c460f-45ec-4d2e-a1b5-ac9bdc99ed0f,Kenny Chesney,Hard Rock Hotel Las Vegas,4/3/2015 8:00:00 PM 
+51fe84cc-9372-4568-8853-4d27c2f579cc,Kenny Chesney and Jason Aldean,Gillette Stadium,8/28/2015 5:00:00 PM 
+d4412e89-0058-42b6-8387-5822d38d6f42,Kenny Chesney and Jason Aldean with Brantley Gilbert,Gillette Stadium (Kenny Chesney),8/29/2015 5:00:00 PM 
+d23debae-e961-4da7-91f5-1d5908944fa5,Kinky Boots,Boston Opera House,8/22/2015 2:00:00 PM 
+312160f2-1b63-45c8-8801-4b986651fc8a,Kinky Boots,Boston Opera House,8/22/2015 8:00:00 PM 
+a742dcc9-4916-44c7-b1e9-9c487c4a3aa3,Lauryn Hill,Wilbur Theatre (End Stage),3/18/2015 8:00:00 PM 
+e0ff807d-a806-407a-ae04-4de00a4b5504,Maroon 5,TD Garden (End Stage),3/3/2015 7:30:00 PM 
+0983d7ab-9f65-473b-adb0-db8019486118,Mastodon,House of Blues Boston,5/17/2015 6:00:00 PM 
+91747f95-5831-40f3-a9f3-6dd101a9c628,Miami Heat vs Atlanta Hawks,American Airlines Arena (Basketball),2/28/2015 7:30:00 PM 
+25228cef-5224-4f4f-b0d1-d82278bf7eb0,Miami Heat vs Boston Celtics,American Airlines Arena (Basketball),3/9/2015 7:30:00 PM 
+b7fe990c-e9eb-4a31-bb05-5a73bb5e6758,Miami Heat vs Brooklyn Nets,American Airlines Arena (Basketball),3/11/2015 7:30:00 PM 
+17547823-7a97-4d8e-8116-dbe9dcabd2aa,Miami Heat vs Charlotte Hornets,American Airlines Arena (Basketball),4/7/2015 7:30:00 PM 
+c3617b3b-e26a-4269-bc6f-8b2012e1c68a,Miami Heat vs Chicago Bulls,American Airlines Arena (Basketball),4/9/2015 8:00:00 PM 
+3cf7319c-85f1-4a3d-b872-3e64dae3fa97,Miami Heat vs Cleveland Cavaliers,American Airlines Arena (Basketball),3/16/2015 8:00:00 PM 
+3b05ab17-54c2-4003-8cb2-e6528341bfb1,Miami Heat vs Denver Nuggets,American Airlines Arena (Basketball),3/20/2015 7:30:00 PM 
+386f3055-b8e5-4bc1-b2f4-b6cc2cb581ee,Miami Heat vs Detroit Pistons,American Airlines Arena (Basketball),3/29/2015 6:00:00 PM 
+c76fa107-5709-40cd-9057-488ba538c747,Miami Heat vs Los Angeles Lakers,American Airlines Arena (Basketball),3/4/2015 8:00:00 PM 
+89fb4b31-e31a-4366-8c88-1c2b81e2c013,Miami Heat vs New York Knicks,American Airlines Arena (Basketball),2/9/2015 7:30:00 PM 
+0aeb1408-f11b-4e44-b9aa-9a5b08dffa69,Miami Heat vs Orlando Magic,American Airlines Arena (Basketball),4/13/2015 7:30:00 PM 
+d12d3bf2-18ce-42a6-8d09-b7086775965f,Miami Heat vs Philadelphia 76ers,American Airlines Arena (Basketball),2/23/2015 7:30:00 PM 
+9430b5a3-52a6-433a-b3c9-75b772dab8b5,Miami Heat vs Portland Trail Blazers,American Airlines Arena (Basketball),3/18/2015 7:30:00 PM 
+b1f4be6f-e123-4740-887e-cc86a8344565,Miami Heat vs San Antonio Spurs,American Airlines Arena (Basketball),3/31/2015 8:00:00 PM 
+7e0e5487-fa57-4a0b-b1b8-d07d088cb125,Miami Heat vs Toronto Raptors,American Airlines Arena (Basketball),4/11/2015 7:30:00 PM 
+ab08b186-b913-437c-8e10-446a729d5922,Milky Chance,House of Blues Boston,3/29/2015 8:00:00 PM 
+02e72c4e-88f0-4d61-b254-12b227d1f14e,Minnesota Wild vs Detroit Red Wings,Xcel Energy Center (Hockey),4/4/2015 6:00:00 PM 
+e092c8db-c70f-42d5-bdfa-e88711144881,Minnesota Wild vs Edmonton Oilers,Xcel Energy Center (Hockey),2/24/2015 7:00:00 PM 
+ca4971b1-042c-4005-b292-637047cf2843,Minnesota Wild vs Florida Panthers,Xcel Energy Center (Hockey),2/12/2015 7:00:00 PM 
+fbb1695c-27c3-4f81-965b-4407cc3c73e0,Minnesota Wild vs New Jersey Devils,Xcel Energy Center (Hockey),3/10/2015 7:00:00 PM 
+54b50f4e-dbab-44cf-bbc9-8649be363eb6,Minnesota Wild vs Ottawa Senators,Xcel Energy Center (Hockey),3/3/2015 7:00:00 PM 
+1c99708b-c288-4d2f-b5cc-998b8a2d9410,Minnesota Wild vs St Louis Blues,Xcel Energy Center (Hockey),3/21/2015 1:00:00 PM 
+5d9240b6-3eb2-4ef9-ac04-d74d65ca58a8,Minnesota Wild vs Washington Capitals,Xcel Energy Center (Hockey),3/19/2015 7:00:00 PM 
+5ae60f0f-3df6-4433-81a7-8d3542b416e9,Minnesota Wild vs Winnipeg Jets,Xcel Energy Center (Hockey),4/6/2015 7:00:00 PM 
+ea4e47a3-a71b-4acd-92e0-4972776da03a,Miranda Lambert,DCU Center ,4/10/2015 7:30:00 PM 
+3ead427d-073d-434e-a8b5-fd99f240a09b,Motley Crue,DCU Center (End Stage),8/15/2015 7:00:00 PM 
+f06d8829-4998-4e6d-bcad-87a33bee34db,Motown - The Musical,Boston Opera House,2/11/2015 7:30:00 PM 
+4c909d72-6b9d-4825-be54-8562ca54d4bc,Motown - The Musical,Boston Opera House,2/14/2015 8:00:00 PM 
+5375edeb-cec8-417e-9490-2780cdbaeac9,NCAA Mens Frozen Four Championship Game,TD Garden (Hockey),4/11/2015 7:30:00 PM 
+4e034e46-4240-4f16-b53c-1c31135e7598,Neil Diamond,TD Garden (End Stage),3/23/2015 8:00:00 PM 
+94c7cb58-43e8-474c-b49c-e9fcdc6632f5,New York Knicks vs Boston Celtics,Madison Square Garden (Basketball),3/27/2015 7:30:00 PM 
+2ef87cbb-922d-45e6-a321-50763e0e954f,New York Knicks vs Brooklyn Nets,Madison Square Garden (Basketball),4/1/2015 7:30:00 PM 
+8b5a1cce-be70-40f6-8186-88af84d33dce,New York Knicks vs Golden State Warriors,Madison Square Garden (Basketball),2/7/2015 7:30:00 PM 
+68cb30b8-5369-495d-b3a7-28b2de17921a,New York Knicks vs Indiana Pacers,Madison Square Garden (Basketball),3/7/2015 7:30:00 PM 
+dda50562-79cc-4288-abde-20f041e3c509,New York Knicks vs Indiana Pacers,Madison Square Garden (Basketball),4/8/2015 7:30:00 PM 
+3af709da-5618-4f63-b56b-14fd8f7c6a2b,New York Knicks vs Memphia Grizzlies,Madison Square Garden (Basketball),3/23/2015 7:30:00 PM 
+24d0f8e7-f853-4c1e-9ada-89384dfde95a,New York Knicks vs Milwaukee Bucks,Madison Square Garden (Basketball),4/10/2015 7:30:00 PM 
+341d6ff6-b2fa-4574-99fe-4a5088f502d7,Newsies,Boston Opera House,6/27/2015 2:00:00 PM 
+4b7680dc-5ad2-4abb-a098-a288ad1ed0ff,Newsies,Boston Opera House,6/27/2015 8:00:00 PM 
+982ac959-88d2-46e5-8092-dea8c5a22ca3,Newsies,Boston Opera House,7/3/2015 1:00:00 PM 
+90d3ab57-d8f5-4cfa-bb49-f1c96415bba8,Newsies,Boston Opera House,7/4/2015 2:00:00 PM 
+ea3421e4-7e67-4476-b851-7d27830ae4f1,Nickelback,Xfinity Center - MA,8/18/2015 7:30:00 PM 
+5789f513-e35a-4865-bdd1-ad9dd858cd4b,Noel Gallagher,Boston Opera House,6/6/2015 8:00:00 PM 
+05f7bce6-e473-4f82-b5e0-c2da0df36ec0,Paramore,Wang Theatre,5/5/2015 8:00:00 PM 
+00a2a57d-7326-4f9a-a4e7-1dca10ee17da,PARKING PASSES ONLY - Taylor Swift,Gillette Stadium Parking ,7/24/2015 7:00:00 PM 
+fcad45b8-ed4e-4ddf-84fb-107cee8b0c48,Parking Passes Only: Kenny Chesney and Jason Aldean,Gillette Stadium Parking ,8/28/2015 5:00:00 PM 
+e05b2abc-42af-4fd5-a5aa-27e71d650a4d,Peter Frampton And Cheap Trick,Xfinity Center - MA,8/1/2015 7:00:00 PM 
+d446b6b9-af40-4b12-a468-52b781b50ef5,Philadelphia 76ers vs Charlotte Hornets,Wells Fargo Center PA (Basketball),2/7/2015 7:30:00 PM 
+86f8d927-cab5-46f5-8729-db4758019912,Rush,Pinnacle Bank Arena (End Stage),5/10/2015 7:30:00 PM 
+d43ecdd0-6890-48fd-9e00-3aee47eedea3,Rush,TD Garden (End Stage),6/23/2015 7:30:00 PM 
+7d2d3cff-4fac-49a7-b584-a7f27c9434f9,Taking Back Sunday,House of Blues Boston,3/26/2015 6:00:00 PM 
+6e4b3a77-ced3-48ea-90f1-af6c54e6aae3,Taylor Swift,Gillette Stadium (Taylor Swift),7/24/2015 7:00:00 PM 
+7b83f4cd-9f72-4127-a01e-02fc42dd47ba,The Beach boys,Cape Cod Melody Tent,8/15/2015 8:30:00 PM 
+ea572ca0-8717-480b-afec-ec2a3857767a,The Kooks,House of Blues Boston,5/10/2015 7:00:00 PM 
+afdccc2d-8125-4cb5-8836-9c060d8ed695,The Maine,House of Blues Boston,5/5/2015 6:00:00 PM 
+f328c0b9-8397-4739-be86-4657d6bd09cc,The Who - Hits 50,TD Garden (End Stage),10/29/2015 7:30:00 PM 
+599bb1c3-2849-46a5-b274-2de3ea642d15,Train,Xfinity Center - MA,6/20/2015 7:00:00 PM 
+2c67974b-eb1a-4434-baac-0c919af6291c,U2,TD Garden (End Stage),7/10/2015 7:30:00 PM 
+44f70550-2c79-44dd-a89b-9e4bd9ee60e4,U2,TD Garden (End Stage),7/14/2015 7:30:00 PM 
+91dcdbb4-97a4-4e7f-a664-e34cc73a7dbc,U2,TD Garden (End Stage),7/15/2015 7:30:00 PM 
+9ca2f8db-a00c-4dad-85fd-9c28ea290504,U2,United Center (U2),6/28/2015 7:30:00 PM 
+7fe15f0a-bfc0-4c43-8d4c-c1572f596cef,Boston Red Sox vs Toronto Blue Jays (Preseason),JetBlue Park,4/1/2015 1:05:00 PM 
+50a63b82-18ab-4e86-9919-aacf42fcaa0f,Boston University Terriers vs Northeastern Huskies,Agganis Arena (Hockey),2/27/2015 7:30:00 PM 
+40bec777-276a-4463-894e-6937991b53ee,Brian Regan,Hampton Beach Casino Ballroom,8/8/2015 8:00:00 PM 
+99b786cd-18a4-49c0-b7da-41a8d9706741,Cannibal Corpse,House of Blues Boston,2/27/2015 7:00:00 PM 
+8c1e3e68-f410-462b-8345-d1bf6c2e9d59,Celtic Thunder,Orpheum Theatre - MA,4/11/2015 7:30:00 PM 
+3030b9c0-d42d-4c41-9ba9-5203661b2b02,Chicago Blackhawks vs Arizona Coyotes,United Center (Hockey),2/9/2015 7:30:00 PM 
+edc08b4b-9c25-45d6-adf5-18f5001dfeb7,Dave Matthews Band,Xfinity Center - MA,6/13/2015 7:00:00 PM 
+f43c7aae-53cc-442f-9006-085fb6b6c127,Dirty Dancing,Colonial Theatre Boston,4/29/2015 7:00:00 PM 
+5983307d-3a93-4a9d-bd7c-4c48be6f4dd7,Dirty Dancing,Colonial Theatre Boston,5/8/2015 8:00:00 PM 
+3f2e490f-934f-4251-87c4-9b06619e702d,Disney On Ice: Frozen,TD Garden (Ice Show),2/16/2015 11:00:00 AM 
+560f2d46-bc2b-4bb9-9705-fe2b5561ab17,Disney On Ice: Frozen,TD Garden (Ice Show),2/21/2015 3:00:00 PM 
+6af8fc5d-8d41-4b13-86ff-776511fad3c6,Dropkick Murphys (Day Show),House of Blues Boston,3/14/2015 12:00:00 PM 
+e6c05e5f-98af-4205-bc11-c581f5d9a9d4,Harvard Crimson vs Yale Bulldogs,Lavietes Pavilion (Harvard),3/6/2015 7:00:00 PM 
+1e3b8da4-7f6e-4304-865d-79859f555b8c,Iggy Azalea,TD Garden (End Stage),5/6/2015 7:30:00 PM 
+ae42a83f-bd6d-44cf-9746-0f2c7397e6b9,Joe Nichols,House of Blues Boston,2/28/2015 6:00:00 PM 
+33f74ab0-088c-45a2-a48f-24924025a67c,Kenny Chesney,Mohegan Sun Arena,4/25/2015 7:30:00 PM 
+058dc4ad-cb02-4b2d-956a-aa3624665684,Kinky Boots,Boston Opera House,8/14/2015 8:00:00 PM 
+52c464fc-06bf-4a9f-9d05-2d013d3adac6,Kinky Boots,Boston Opera House,8/15/2015 2:00:00 PM 
+7f5f8f52-3448-449a-8d8f-010110a8bd6e,Kinky Boots,Boston Opera House,8/15/2015 8:00:00 PM 
+53766479-c67d-442f-b5c6-b8c6381f5bf7,Kinky Boots,Boston Opera House,8/16/2015 1:00:00 PM 
+e69793c7-57e5-492b-9a41-fb0eedd2cb92,Kinky Boots,Boston Opera House,8/23/2015 1:00:00 PM 
+bd2c3b29-abf6-4846-8662-79d3468ee730,Mark Knopfler,Orpheum Theatre - MA,10/9/2015 7:30:00 PM 
+955a8dba-ea2e-4158-8833-ec964e981503,Miami Heat vs New Orleans Pelicans,American Airlines Arena (Basketball),2/21/2015 7:30:00 PM 
+6d314867-ae67-4e2a-99bc-c224250f51fd,Miami Heat vs Phoenix Suns,American Airlines Arena (Basketball),3/2/2015 7:30:00 PM 
+85bdcd0f-fead-41cf-9e6e-30d97b471750,Miami Heat vs Sacramento Kings,American Airlines Arena (Basketball),3/7/2015 7:30:00 PM 
+e9215fcb-cce6-4512-9da8-c1c3b10d3a8b,Minnesota Wild vs Anaheim Ducks,Xcel Energy Center (Hockey),3/13/2015 7:00:00 PM 
+b572fb57-3281-404e-aa65-511a884397d3,Minnesota Wild vs Calgary Flames,Xcel Energy Center (Hockey),3/27/2015 7:00:00 PM 
+31a2f21a-c3eb-452c-b1d8-998bd66cc2cd,Minnesota Wild vs Los Angeles Kings,Xcel Energy Center (Hockey),3/28/2015 7:00:00 PM 
+f5280678-d76e-452d-96a2-32651b621ecc,Minnesota Wild vs New York Rangers,Xcel Energy Center (Hockey),4/2/2015 6:00:00 PM 
+37538471-a8e2-4c2c-821c-44af1c49c076,Motown - The Musical,Boston Opera House,2/6/2015 8:00:00 PM 
+c04aa47b-d69b-45a4-aff0-64a77f792875,Motown - The Musical,Boston Opera House,2/13/2015 8:00:00 PM 
+06b1ea29-6a15-4f1b-bf1a-d17f9bbc82b8,Motown - The Musical,Boston Opera House,2/15/2015 1:00:00 PM 
+0f739bc6-fb9d-42fd-b9d3-b6fdbac4b847,Motown - The Musical (Rescheduled from 1/27/15),Boston Opera House,2/9/2015 7:30:00 PM 
+bb889035-d2a2-486a-b716-30cd049e5ffb,NCAA Mens Frozen Four Semifinals,TD Garden (Hockey),4/9/2015 5:00:00 PM 
+18a97ac8-d3a7-4c45-812d-f7fd1b01cb72,New York Knicks vs Philadelphia 76ers,Madison Square Garden (Basketball),4/5/2015 7:30:00 PM 
+f6480229-0948-46b2-b093-1537fb6c7cf0,New York Knicks vs San Antonio Spurs,Madison Square Garden (Basketball),3/17/2015 7:30:00 PM 
+3c502e42-cfda-4872-af9f-963af76902c1,New York Knicks vs Toronto Raptors,Madison Square Garden (Basketball),2/28/2015 7:30:00 PM 
+a78a4354-cc43-4611-8383-41a229ab2ceb,Newsies,Boston Opera House,6/26/2015 8:00:00 PM 
+4c166e2a-af8c-4254-b2b8-e8c1a971801c,Newsies,Boston Opera House,6/28/2015 1:00:00 PM 
+bba5ce07-38a7-4213-8d36-c9cd4eab4fd0,One Direction: On the Road,Gillette Stadium (One Direction),9/12/2015 7:00:00 PM 
+1d49311a-c38b-4e90-bdf3-8224604c72b8,PARKING PASSES ONLY - Taylor Swift,Gillette Stadium Parking ,7/25/2015 7:00:00 PM 
+24e6fb75-50cd-4dd6-a308-a2cd3845423b,Parking Passes Only: Kenny Chesney and Jason Aldean,Gillette Stadium Parking ,8/29/2015 5:00:00 PM 
+5ada6e52-38b6-4c66-b5e5-15ad643ac6fc,Philadelphia 76ers vs Los Angeles Clippers,Wells Fargo Center PA (Basketball),3/27/2015 7:00:00 PM 
+5f57a758-abb6-4a67-a8cf-0308b8ba2b23,Philadelphia 76ers vs Sacramento Kings,Wells Fargo Center PA (Basketball),3/13/2015 7:00:00 PM 
+d6f1ba7c-f53e-48a6-9197-4dfb6e73388e,Philadelphia 76ers vs Toronto Raptors,Wells Fargo Center PA (Basketball),3/2/2015 7:00:00 PM 
+7580d6af-88c3-4329-9bd4-9573b35311d7,Ronan Tynan,Wilbur Theatre (End Stage),3/15/2015 7:30:00 PM 
+d5c79803-fbf0-46b0-8349-cc18a9876962,U2,TD Garden (End Stage),7/11/2015 7:30:00 PM 
+2a7b42c5-bc99-42d3-9022-a9c4803aaf39,Chicago Blackhawks vs Vancouver Canucks,United Center (Hockey),2/11/2015 7:00:00 PM 
+b50dd6cd-10d9-4276-8e1a-07b74db72360,Chick Corea and Herbie Hancock,Boston Symphony Hall,4/12/2015 7:30:00 PM 
+06d07b4e-c850-48ce-941e-d3691f36238f,Craig Ferguson,Wilbur Theatre (End Stage),2/14/2015 9:45:00 PM 
+ba12a473-8e72-4974-905c-5464db8e802d,Dirty Dancing,Colonial Theatre Boston,5/10/2015 6:30:00 PM 
+c5a0784a-2745-4742-a069-64f6bdef4ac8,Excision,House of Blues Boston,3/5/2015 7:00:00 PM 
+81a907aa-56f4-4fb7-aa76-8c5c3d10629f,Gov''t Mule,Orpheum Theatre - MA,3/12/2015 7:30:00 PM 
+095a9d11-37d1-4440-8040-cb7b49b367b6,Halestorm,House of Blues Boston,5/12/2015 6:30:00 PM 
+e6820d33-ca61-4a30-b0bc-e0efc4bb38f9,Idina Menzel,Tanglewood Shed,8/29/2015 7:00:00 PM 
+7ac88e4c-1c7c-4386-9604-a4764471dca4,Impractical Jokers,Wilbur Theatre (End Stage with Reserved Tables),4/3/2015 10:00:00 PM 
+0b92f0a7-68ba-46bf-a586-5884ed6f0d43,Interpol,House of Blues Boston,7/24/2015 7:00:00 PM 
+5cdc3965-6893-432a-809d-bbbfefd2cf7c,James Taylor,Tanglewood Shed,7/4/2015 8:00:00 PM 
+15913dba-880c-4301-9f2f-50d4e301ed2a,Kinky Boots,Boston Opera House,8/21/2015 8:00:00 PM 
+2ae57d6e-4400-4dff-bef4-6fb4ed618e8a,Kodaline,House of Blues Boston,4/22/2015 7:00:00 PM 
+b3608eb8-df40-463a-a2f0-019fab1482f1,Minnesota Wild vs Vancouver Canucks,Xcel Energy Center (Hockey),2/9/2015 7:00:00 PM 
+033a9e1b-bfd8-4620-b074-e8858e8a9ba3,Motown - The Musical,Boston Opera House,2/10/2015 7:30:00 PM 
+5fe57e1a-b68a-4540-8b9d-eef58cedfdb2,Motown - The Musical,Boston Opera House,2/12/2015 7:30:00 PM 
+2e5bdbea-a097-4386-99ef-1ec0da402612,New Kids on the Block with TLC and Nelly,TD Garden,6/24/2015 7:00:00 PM 
+41c1879f-dd5a-47aa-b414-648f03bf7cb4,New York Knicks vs Cleveland Cavaliers,Madison Square Garden (Basketball),2/22/2015 1:00:00 PM 
+6df74fec-245a-4ff3-9f2a-f9a4821a912f,New York Knicks vs Detroit Pistons,Madison Square Garden (Basketball),4/15/2015 8:00:00 PM 
+02cf7159-486f-44a8-9872-645032706317,New York Knicks vs Los Angeles Clippers,Madison Square Garden (Basketball),3/25/2015 7:00:00 PM 
+df76ea54-4fbc-4da1-bc79-ba36bb224ffe,New York Knicks vs Minnesota Timberwolves,Madison Square Garden (Basketball),3/19/2015 7:30:00 PM 
+6b601f79-cc88-4ce7-bb2f-6aee482b1935,Newsies,Boston Opera House,7/3/2015 8:00:00 PM 
+02fc5438-f370-4be3-ae82-e2d180ac1c26,Newsies,Boston Opera House,7/5/2015 1:00:00 PM 
+b40c860a-dae0-417d-9723-c45ed6c9e063,Pentatonix,Agganis Arena,3/16/2015 8:00:00 PM 
+2f51c09c-b40f-4cf1-b095-1fd5b97ff98b,Philadelphia 76ers vs Brooklyn Nets,Wells Fargo Center PA (Basketball),3/14/2015 7:30:00 PM 
+528c4c1e-415a-4fd7-9613-56e93d80e347,Philadelphia 76ers vs Chicago Bulls,Wells Fargo Center PA (Basketball),3/11/2015 7:00:00 PM 
+4c5ddaa7-20ac-43fe-b22d-fd56754a4cad,Philadelphia 76ers vs New York Knicks,Wells Fargo Center PA (Basketball),3/20/2015 7:00:00 PM 
+bd1b3890-890c-4627-a187-7605c64b10cf,Philadelphia 76ers vs Washington Wizards,Wells Fargo Center PA (Basketball),2/27/2015 7:00:00 PM 
+bcc5c819-4efa-4cb3-96c1-3bb7a4e1784a,Philadelphia 76ers vs Washington Wizards,Wells Fargo Center PA (Basketball),4/8/2015 7:00:00 PM 
+624bc201-e855-4f1a-bc43-5b0b4504bdc3,Pink Martini,Cape Cod Melody Tent,7/11/2015 8:00:00 PM 
+ce528089-cc56-478e-94a7-6497d31325e6,Rick Springfield,House of Blues Boston,2/25/2015 7:00:00 PM 
+c28ecd02-4163-4139-a73a-3ffa5a33ea85,Scott Weiland and The Wildabouts,Brighton Music Hall,3/14/2015 7:00:00 PM 
+e6a1f423-ba7b-4486-a365-a4072485e3ec,Taylor Swift,Gillette Stadium (Taylor Swift),7/25/2015 7:00:00 PM 
+d5f7535a-1fdc-4cdf-92a2-88471d7cf74d,The Decemberists,House of Blues Boston,4/3/2015 7:00:00 PM 
+e0c7c259-a92b-4aa6-b83a-355628fb86bd,Tristan and Yseult,Cutler Majestic Theatre,3/6/2015 8:00:00 PM 
+273d4146-fc9d-4d39-bc28-87a4f563f48e,Tristan and Yseult,Majestic Theatre Boston,3/13/2015 8:00:00 PM 
+c8d1e3f5-944b-4310-8d06-7fc1030e364e,Chicago Blackhawks vs St Louis Blues,United Center (Hockey),4/5/2015 6:30:00 PM 
+1de3a8a5-3009-42b5-abb0-68a2668e7cbd,Diana Krall,Koussevitzky Music Shed at Tanglewood,6/21/2015 2:30:00 PM 
+02ab0209-761b-4317-8d84-d1a8970dc43f,Dirty Dancing,Colonial Theatre Boston,5/1/2015 8:00:00 PM 
+56bfaaf9-a1c2-4214-b896-7b25cf7042f1,Dirty Dancing,Colonial Theatre Boston,5/2/2015 2:00:00 PM 
+ec680f8c-4ab4-426b-baff-01c4bf4bc5bd,Dirty Dancing,Colonial Theatre Boston,5/5/2015 7:30:00 PM 
+7b895d86-3b7a-407d-8550-6d2285f6252f,Dirty Dancing,Colonial Theatre Boston,5/6/2015 7:30:00 PM 
+911d9f1f-b2ee-4f59-81e8-94e339fec27e,Florida Georgia Line,Dunkin Donuts Center,5/7/2015 7:30:00 PM 
+ec2dd771-243a-4f0b-81b0-1b7348152be6,Lewis Black,Citi Shubert Theatre,4/10/2015 8:00:00 PM 
+1825ac73-17a9-4fb3-84ea-e272695ae31e,Matt and Kim,House of Blues Boston,4/12/2015 7:00:00 PM 
+a4fd4529-1abe-4be8-b835-65e87fed3050,Matt Kearney,House of Blues Boston,3/25/2015 7:00:00 PM 
+648d27e0-aebc-483c-8d3f-14cfd75cb3bd,Motown - The Musical,Boston Opera House,2/5/2015 7:30:00 PM 
+738e6804-0139-4c1e-9e24-8bed27759f5e,Motown - The Musical,Boston Opera House,2/7/2015 8:00:00 PM 
+503ffd42-14f5-46b8-8658-d1a9f653f182,Motown - The Musical,Boston Opera House,2/8/2015 1:00:00 PM 
+1778050b-3cc4-48d9-a647-c32ff49aca0b,Motown - The Musical,Boston Opera House,2/14/2015 2:00:00 PM 
+48c11793-cdb2-45d4-95fc-a0c5b6de4dc7,Philadelphia 76ers vs Indiana Pacers,Wells Fargo Center PA (Basketball),2/20/2015 7:00:00 PM 
+6918a602-ea26-4800-a953-1d5d2bb03f47,Philadelphia 76ers vs Miami Heat,Wells Fargo Center PA (Basketball),4/15/2015 8:00:00 PM 
+a6db96d1-d5f9-4416-9128-21ac143c1cd6,Philadelphia 76ers vs Utah Jazz,Wells Fargo Center PA (Basketball),3/6/2015 7:00:00 PM 
+b199febb-8268-4013-a6f3-9b2cb14f9565,Punch Brothers,House of Blues Boston,3/6/2015 7:00:00 PM 
+7d100243-fed3-4cff-ba53-2251e82993a3,Rush,SAP Center,7/23/2015 7:30:00 PM 
+4b591b3e-46c8-4d75-809d-5ec16a50684d,Sleater-Kinney,House of Blues Boston,2/22/2015 7:00:00 PM 
+a3b5c573-5a95-44ba-95fb-70526a21680d,The Beach boys,Cape Cod Melody Tent,8/15/2015 3:30:00 PM 
+241e2604-a56f-4dca-bddd-5b7fd039868c,Chicago Blackhawks vs Vancouver Canucks,United Center (Hockey),4/2/2015 7:30:00 PM 
+77cbe65a-d4af-4105-9e01-0da3ac791264,Chris Botti,Cape Cod Melody Tent,8/9/2015 8:00:00 PM 
+75c1be4e-9fd4-4bc6-8c01-796822768ce3,Dirty Dancing,Colonial Theatre Boston,4/30/2015 7:30:00 PM 
+be8ce103-008b-458f-8b11-39c678c884af,Harvard Crimson vs Princeton Tigers,Lavietes Pavilion (Harvard),2/21/2015 7:00:00 PM 
+f9109513-470d-4b61-983c-f469ef9b3ce1,Kenny Chesney,Hard Rock Hotel Las Vegas,4/4/2015 8:00:00 PM 
+7b360886-194e-4b6c-a163-4d7d18e73238,Kenny Chesney,Mohegan Sun Arena,4/24/2015 7:30:00 PM 
+b4cfc893-ae20-4d64-aea5-00a6c21de347,Minnesota Wild vs Carolina Hurricanes,Xcel Energy Center (Hockey),2/14/2015 7:00:00 PM 
+77777808-6c4c-4633-9eb3-eacce0a88677,New York Knicks vs Miami Heat,Madison Square Garden (Basketball),2/20/2015 7:30:00 PM 
+6610ed1f-a865-41e6-9699-5320cc0002cf,Philadelphia 76ers vs Atlanta Hawks,Wells Fargo Center PA (Basketball),3/7/2015 7:30:00 PM 
+83223b97-065d-4432-bcd0-c418755f3be5,Philadelphia 76ers vs Los Angeles Lakers,Wells Fargo Center PA (Basketball),3/30/2015 7:00:00 PM 
+62361e07-0c67-45de-a542-6b2ef84927b2,Rush,Smoothie King Center (End Stage),5/22/2015 7:30:00 PM 
+0c504da7-3a37-4891-82a0-5e3d67d00f24,Tristan and Yseult,Cutler Majestic Theatre,3/7/2015 8:00:00 PM 
+cdaafb37-2fae-47a1-aa57-35d16d827d60,Tristan and Yseult,Majestic Theatre Boston,3/14/2015 8:00:00 PM 
+87ab00fa-6990-4270-baa8-70c17b72e96e,Chicago Blackhawks vs Los Angeles Kings,United Center (Hockey),3/30/2015 7:30:00 PM 
+654d1f2f-cc6e-4dfe-a6e2-87fe13774dad,Chicago Blackhawks vs Pittsburgh Penguins,United Center (Hockey),2/15/2015 11:30:00 AM 
+1fe9e519-1bdb-403a-9253-a16e44025e30,Diana Krall,Cape Cod Melody Tent,7/19/2015 8:00:00 PM 
+56d0b591-3b58-44b6-96a1-88b33ada2d0c,Jesse Cook,Wilbur Theatre (End Stage),3/12/2015 7:30:00 PM 
+f575314c-5e31-479a-86a6-0d2875c6576f,Philadelphia 76ers vs Denver Nuggets,Wells Fargo Center PA (Basketball),2/3/2015 7:00:00 PM 
+463e233c-c3c6-4473-91e9-814cb8d1150c,Philadelphia 76ers vs Detroit Pistons,Wells Fargo Center PA (Basketball),3/18/2015 7:00:00 PM 
+1322c01f-b0cf-43fa-a4bb-e60d30ff42ba,Philadelphia 76ers vs Milwaukee Bucks,Wells Fargo Center PA (Basketball),4/13/2015 7:00:00 PM 
+23695395-e219-447d-b7e8-ff1623f51f59,Rush,Air Canada Centre (End Stage),6/17/2015 7:00:00 PM 
+9afed243-e528-4120-96b0-bc93c18dfec2,Rush,Bell Centre (End Stage),6/21/2015 7:30:00 PM 
+ac1a05d4-5f89-43f9-a31a-7cf7ffe4f12d,Rush,United Center (End Stage),6/12/2015 7:30:00 PM 
+b9e25624-4b6d-4950-b2b3-d75109d7e68e,Sesame Street Live,Orpheum Theatre - MA,5/2/2015 2:00:00 PM 
+91baa21c-45c6-424a-a376-6b631c51063d,Sheryl Crow,Tanglewood Shed,6/19/2015 8:30:00 PM 
+648c894e-c5dd-4b15-a145-8bcb0d68c579,Florida Georgia Line,Verizon Wireless Arena,2/18/2015 7:00:00 PM 
+09a37c5f-681b-4338-a1e0-c008d23cb249,Kongos,House of Blues Boston,2/18/2015 7:00:00 PM 
+7d9b56ca-7aa5-48b1-9e34-35a44834b3a4,Meghan Trainor,Paradise Rock Club,3/17/2015 6:00:00 PM 
+0f706353-0da4-4a45-aa5b-b4b1c4f81a63,Minnesota Wild vs Colorado Avalanche,Xcel Energy Center (Hockey),3/8/2015 5:00:00 PM 
+58c1262b-86fe-4882-afe1-00463004ae19,Minnesota Wild vs Dallas Stars,Xcel Energy Center (Hockey),2/22/2015 7:00:00 PM 
+095fd167-7c1f-4690-a3d7-aef356819d13,Soja,House of Blues Boston,3/1/2015 8:00:00 PM 
+d6e0d411-1977-4c73-ba0d-918952d96a6f,Steve Aoki,House of Blues Boston,3/17/2015 7:00:00 PM 
+465a7ef2-fa78-4f96-9315-f255fa8af01f,Brian Regan,Cape Cod Melody Tent,8/6/2015 8:00:00 PM 
+454c9a72-0216-4cde-89b8-483c134f7657,Disney On Ice: Frozen,TD Garden (Ice Show),2/15/2015 1:00:00 PM 
+6a8c22db-35a6-4a16-bc14-6476e770440e,New York Knicks vs Boston Celtics,Madison Square Garden (Basketball),2/3/2015 7:30:00 PM 
+13f85d8d-1141-4e69-9c19-d40c45dc3c1d,Spandau Ballet (Rescheduled from 2/5/2015),House of Blues Boston,4/30/2015 7:00:00 PM 
+044c24ca-3ffb-4f0f-ab7b-f639f11df40b,The Lone Bellow,Paradise Rock Club,2/12/2015 7:00:00 PM 

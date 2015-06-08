@@ -1,0 +1,12 @@
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\ScoreBig.SeatMapModel.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\ScoreBig.SeatMapModel.pdb
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\Microsoft.ServiceFabric.Data.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\System.Fabric.Common.Internal.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\System.Fabric.Common.Internal.Strings.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\Microsoft.ServiceFabric.Replicator.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\Microsoft.ServiceFabric.Collections.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\Microsoft.ServiceFabric.Data.Log.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\Microsoft.ServiceFabric.ReplicatedStore.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\bin\Debug\en-us\System.Fabric.Common.Internal.Strings.resources.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\obj\Debug\ScoreBig.SeatMapModel.dll
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMap.Model\obj\Debug\ScoreBig.SeatMapModel.pdb

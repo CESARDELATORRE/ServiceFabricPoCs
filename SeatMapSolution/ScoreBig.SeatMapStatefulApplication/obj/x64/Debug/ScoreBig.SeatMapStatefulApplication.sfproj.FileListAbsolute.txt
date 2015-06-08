@@ -1,0 +1,2 @@
+E:\GITREPOS\ScoreBig.SeatMap\ScoreBig.SeatMapStatefulApplication\obj\x64\Debug\ScoreBig.SeatMapStatefulApplication.sfprojResolveAssemblyReference.cache
+E:\GITREPOS\shrimp\shrimp\SeatMapSolution\ScoreBig.SeatMapStatefulApplication\obj\x64\Debug\ScoreBig.SeatMapStatefulApplication.sfprojResolveAssemblyReference.cache
