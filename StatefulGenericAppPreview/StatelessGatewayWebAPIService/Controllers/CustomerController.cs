@@ -32,13 +32,10 @@ namespace StatelessGatewayWebAPIService.Controllers
         /// </summary>
         private readonly Uri statefulServiceName = new Uri("fabric:/StatefulGenericApp/StatefulWebAPIService");
 
-        static IAddressChangeNotifier<long> notifier = new AddressChangeNotifier<long>("fabric:/StatefulGenericApp/StatefulWebAPIService", true);
-
         static CustomerController()
         {
-            notifier.StartUpdating();
+            
         }
-
 
         private long GetPartitionKey(string originalKey)
         {
@@ -52,89 +49,92 @@ namespace StatelessGatewayWebAPIService.Controllers
         [Route("customers/{customerKey}/{stateCode}", Name = "GetCustomer")]
         public async Task<IHttpActionResult> GetCustomer(string customerKey, string stateCode)
         {
+            //(TBD)
+            return Ok(0);
+
             // Use Fabric Client API to Resolve the Stateful Service Partition to access.
             // The Service partition that we want to connect to can move around, which means the address can change at any time.
             // This is expected, but when it happens we need to re-resolve the address,
             // which happens in the ResolveServicePartitionAsync loop.            
 
-            bool isConnected = false;
-            bool shouldDelay = false;
-            TimeSpan timeout = TimeSpan.FromMilliseconds(250);
-            ResolvedServicePartition currentRsp = null;
+            //bool isConnected = false;
+            //bool shouldDelay = false;
+            //TimeSpan timeout = TimeSpan.FromMilliseconds(250);
+            //ResolvedServicePartition currentRsp = null;
 
-            while (isConnected == false)
-            {
-                try
-                {
-                    ResolvedServicePartition tmpRsp = await fabricClient.ServiceManager.ResolveServicePartitionAsync(
-                        this.statefulServiceName,
-                        GetPartitionKey(stateCode),
-                        currentRsp);
+            //while (isConnected == false)
+            //{
+            //    try
+            //    {
+            //        ResolvedServicePartition tmpRsp = await fabricClient.ServiceManager.ResolveServicePartitionAsync(
+            //            this.statefulServiceName,
+            //            GetPartitionKey(stateCode),
+            //            currentRsp);
 
-                    ResolvedServiceEndpoint resolvedServiceEndpoint = tmpRsp.GetEndpoint();
-                    string baseServiceAddress = resolvedServiceEndpoint.Address;
+            //        ResolvedServiceEndpoint resolvedServiceEndpoint = tmpRsp.GetEndpoint();
+            //        string baseServiceAddress = resolvedServiceEndpoint.Address;
 
-                    // serviceAddress is the endpoint address of the Stateful service partition including the key.                                    
-                    Uri serviceAddress = new Uri(string.Format("{0}Customers/{1}", baseServiceAddress, customerKey));
-                    Trace.WriteLine("Service Address for " + customerKey + " is: " + serviceAddress.AbsoluteUri);
+            //        // serviceAddress is the endpoint address of the Stateful service partition including the key.                                    
+            //        Uri serviceAddress = new Uri(string.Format("{0}Customers/{1}", baseServiceAddress, customerKey));
+            //        Trace.WriteLine("Service Address for " + customerKey + " is: " + serviceAddress.AbsoluteUri);
 
-                    HttpWebRequest request = WebRequest.CreateHttp(serviceAddress);
-                    request.Method = "GET";
+            //        HttpWebRequest request = WebRequest.CreateHttp(serviceAddress);
+            //        request.Method = "GET";
 
-                    try
-                    {
-                        HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-                        if (response.StatusCode == HttpStatusCode.OK)
-                        {
-                            isConnected = true;
+            //        try
+            //        {
+            //            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            //            if (response.StatusCode == HttpStatusCode.OK)
+            //            {
+            //                isConnected = true;
 
-                            Trace.WriteLine("Content type is {0}", response.ContentType);
+            //                Trace.WriteLine("Content type is {0}", response.ContentType);
 
-                            // Get the stream associated with the response.
-                            Stream receiveStream = response.GetResponseStream();
+            //                // Get the stream associated with the response.
+            //                Stream receiveStream = response.GetResponseStream();
 
-                            // Pipes the stream to a higher level stream reader with the required encoding format. 
-                            StreamReader readStream = new StreamReader(receiveStream, Encoding.UTF8);
+            //                // Pipes the stream to a higher level stream reader with the required encoding format. 
+            //                StreamReader readStream = new StreamReader(receiveStream, Encoding.UTF8);
 
-                            Trace.WriteLine("Response stream received.");
-                            String retVal = readStream.ReadToEnd();
-                            Trace.WriteLine(retVal);
+            //                Trace.WriteLine("Response stream received.");
+            //                String retVal = readStream.ReadToEnd();
+            //                Trace.WriteLine(retVal);
 
-                            response.Close();
-                            readStream.Close();
+            //                response.Close();
+            //                readStream.Close();
 
-                            return Ok(retVal);
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        Trace.WriteLine(ex);
-                    }
+            //                return Ok(retVal);
+            //            }
+            //        }
+            //        catch (Exception ex)
+            //        {
+            //            Trace.WriteLine(ex);
+            //        }
 
-                    if (isConnected == false)
-                    {
-                        if (currentRsp != null && tmpRsp.CompareVersion(currentRsp) == 0)
-                        {
-                            shouldDelay = true;
-                        }
+            //        if (isConnected == false)
+            //        {
+            //            if (currentRsp != null && tmpRsp.CompareVersion(currentRsp) == 0)
+            //            {
+            //                shouldDelay = true;
+            //            }
 
-                        currentRsp = tmpRsp;
-                    }
-                }
-                catch (FabricTransientException fte)
-                {
-                    Trace.WriteLine(fte);
-                    shouldDelay = true;
-                }
+            //            currentRsp = tmpRsp;
+            //        }
+            //    }
+            //    catch (FabricTransientException fte)
+            //    {
+            //        Trace.WriteLine(fte);
+            //        shouldDelay = true;
+            //    }
 
-                if (shouldDelay == true)
-                {
-                    await Task.Delay(timeout);
-                    shouldDelay = false;
-                }
-            }
+            //    if (shouldDelay == true)
+            //    {
+            //        await Task.Delay(timeout);
+            //        shouldDelay = false;
+            //    }
+            //}
 
-            return Ok(0);
+            //return Ok(0);
 
         }
 
@@ -150,100 +150,103 @@ namespace StatelessGatewayWebAPIService.Controllers
         [Route("customers/postaddorupdatecustomercommand")]
         public async Task<IHttpActionResult> PostAddorUpdateCustomerCommand(AddorUpdateCustomerCommand addorUpdateCustCommand)
         {
-            Trace.WriteLine("Cutomer to Update thru Command: " + addorUpdateCustCommand.CustomerKey + " " + addorUpdateCustCommand.CompanyName);
-            //return Ok(0);
+            //(TBD)
+            return Ok(0);
 
-            Tuple<string, Guid> endpoint;
+            //Trace.WriteLine("Cutomer to Update thru Command: " + addorUpdateCustCommand.CustomerKey + " " + addorUpdateCustCommand.CompanyName);
+            ////return Ok(0);
 
-            for (int i = 0; i < 3; ++i)
-            {
-                try
-                {
-                    //The Partition KEY is a hash based on the "stateCode", in this case
-                    long hashPartitionKey = GetPartitionKey(addorUpdateCustCommand.StateCode);
-                    Trace.WriteLine("StateCode: " + addorUpdateCustCommand.StateCode + " is Hash: " + hashPartitionKey.ToString());
-                    endpoint = await notifier.GetAddressAsync(hashPartitionKey, CancellationToken.None);
-                }
-                catch (Exception e)
-                {
-                    Trace.WriteLine(e.Message);
-                    throw;
-                }
+            //Tuple<string, Guid> endpoint;
 
-                //PUT / Service's Controller definition
-                //[HttpPut]
-                //[Route("customers/{customerKey}/addorupdate/{companyName}/{zipCode}/{stateCode}/{countryCode}/{contactFullName}/{contactEmail}", Name = "AddorUpdateCustomer")]
+            //for (int i = 0; i < 3; ++i)
+            //{
+            //    try
+            //    {
+            //        //The Partition KEY is a hash based on the "stateCode", in this case
+            //        long hashPartitionKey = GetPartitionKey(addorUpdateCustCommand.StateCode);
+            //        Trace.WriteLine("StateCode: " + addorUpdateCustCommand.StateCode + " is Hash: " + hashPartitionKey.ToString());
+            //        endpoint = await notifier.GetAddressAsync(hashPartitionKey, CancellationToken.None);
+            //    }
+            //    catch (Exception e)
+            //    {
+            //        Trace.WriteLine(e.Message);
+            //        throw;
+            //    }
 
-                Trace.WriteLine("endpoint.Item1: " + endpoint.Item1);
-                Trace.WriteLine("endpoint.Item2: " + endpoint.Item2);
+            //    //PUT / Service's Controller definition
+            //    //[HttpPut]
+            //    //[Route("customers/{customerKey}/addorupdate/{companyName}/{zipCode}/{stateCode}/{countryCode}/{contactFullName}/{contactEmail}", Name = "AddorUpdateCustomer")]
 
-                Uri serviceAddress = new Uri(string.Format("{0}{1}/{2}/{3}/{4}/{5}/{6}/{7}/{8}/{9}",
-                                                            endpoint.Item1,
-                                                            "customers",
-                                                            addorUpdateCustCommand.CustomerKey,
-                                                            "addorupdate",
-                                                            addorUpdateCustCommand.CompanyName,
-                                                            addorUpdateCustCommand.ZipCode,
-                                                            addorUpdateCustCommand.StateCode,
-                                                            addorUpdateCustCommand.CountryCode,
-                                                            addorUpdateCustCommand.ContactFullName,
-                                                            addorUpdateCustCommand.ContactEmail
-                                                            ));
+            //    Trace.WriteLine("endpoint.Item1: " + endpoint.Item1);
+            //    Trace.WriteLine("endpoint.Item2: " + endpoint.Item2);
 
-                Trace.WriteLine("AbsoluteUri: " + serviceAddress.AbsoluteUri);
-                Trace.WriteLine("AbsolutePath: " + serviceAddress.AbsolutePath);
+            //    Uri serviceAddress = new Uri(string.Format("{0}{1}/{2}/{3}/{4}/{5}/{6}/{7}/{8}/{9}",
+            //                                                endpoint.Item1,
+            //                                                "customers",
+            //                                                addorUpdateCustCommand.CustomerKey,
+            //                                                "addorupdate",
+            //                                                addorUpdateCustCommand.CompanyName,
+            //                                                addorUpdateCustCommand.ZipCode,
+            //                                                addorUpdateCustCommand.StateCode,
+            //                                                addorUpdateCustCommand.CountryCode,
+            //                                                addorUpdateCustCommand.ContactFullName,
+            //                                                addorUpdateCustCommand.ContactEmail
+            //                                                ));
 
-                HttpWebRequest request = WebRequest.CreateHttp(serviceAddress);
-                request.Method = "PUT";
-                request.ContentLength = 0;
+            //    Trace.WriteLine("AbsoluteUri: " + serviceAddress.AbsoluteUri);
+            //    Trace.WriteLine("AbsolutePath: " + serviceAddress.AbsolutePath);
 
-                try
-                {
-                    using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-                    {
-                        String retVal = String.Format("<h1>{0}</h1> added to partition <h2>{1}</h2> at {2}",
-                            addorUpdateCustCommand.CompanyName,
-                            endpoint.Item2,
-                            endpoint.Item1
-                            );
+            //    HttpWebRequest request = WebRequest.CreateHttp(serviceAddress);
+            //    request.Method = "PUT";
+            //    request.ContentLength = 0;
 
-                        Trace.WriteLine(retVal);
+            //    try
+            //    {
+            //        using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            //        {
+            //            String retVal = String.Format("<h1>{0}</h1> added to partition <h2>{1}</h2> at {2}",
+            //                addorUpdateCustCommand.CompanyName,
+            //                endpoint.Item2,
+            //                endpoint.Item1
+            //                );
 
-                        return Ok(retVal);
-                    }
-                }
-                catch (WebException we)
-                {
-                    Trace.WriteLine("Exception when calling Web API Service: " + we.Message);
+            //            Trace.WriteLine(retVal);
 
-                    HttpWebResponse errorResponse = we.Response as HttpWebResponse;
+            //            return Ok(retVal);
+            //        }
+            //    }
+            //    catch (WebException we)
+            //    {
+            //        Trace.WriteLine("Exception when calling Web API Service: " + we.Message);
 
-                    if (we.Status == WebExceptionStatus.ProtocolError)
-                    {
-                        int statusCode = (int)errorResponse.StatusCode;
+            //        HttpWebResponse errorResponse = we.Response as HttpWebResponse;
 
-                        if (statusCode == 404)
-                        {
-                            // this could either mean we requested an endpoint that does not exist in the service API (a user error)
-                            // or the address that was resolved by fabric client is stale (transient runtime error) in which we should re-resolve.
+            //        if (we.Status == WebExceptionStatus.ProtocolError)
+            //        {
+            //            int statusCode = (int)errorResponse.StatusCode;
 
-                            continue;
-                        }
-                    }
+            //            if (statusCode == 404)
+            //            {
+            //                // this could either mean we requested an endpoint that does not exist in the service API (a user error)
+            //                // or the address that was resolved by fabric client is stale (transient runtime error) in which we should re-resolve.
 
-                    if (we.Status == WebExceptionStatus.Timeout ||
-                        we.Status == WebExceptionStatus.RequestCanceled ||
-                        we.Status == WebExceptionStatus.ConnectionClosed ||
-                        we.Status == WebExceptionStatus.ConnectFailure)
-                    {
-                        continue;
-                    }
+            //                continue;
+            //            }
+            //        }
 
-                    throw;
-                }
-            }
+            //        if (we.Status == WebExceptionStatus.Timeout ||
+            //            we.Status == WebExceptionStatus.RequestCanceled ||
+            //            we.Status == WebExceptionStatus.ConnectionClosed ||
+            //            we.Status == WebExceptionStatus.ConnectFailure)
+            //        {
+            //            continue;
+            //        }
 
-            return this.InternalServerError();
+            //        throw;
+            //    }
+            //}
+
+            //return this.InternalServerError();
         }
 
 
@@ -271,101 +274,6 @@ namespace StatelessGatewayWebAPIService.Controllers
                                                       
             return await PostAddorUpdateCustomerCommand(addorUpdateCustCommand);
             
-
-        //Trace.WriteLine("Cutomer to Update: " + customerKey + " " + companyName);
-        //return Ok(0);
-
-        //    Tuple<string, Guid> endpoint;
-
-        //    for (int i = 0; i < 3; ++i)
-        //    {
-        //        try
-        //        {
-        //            //The Partition KEY is a hash based on the "stateCode", in this case
-        //            long hashPartitionKey = GetPartitionKey(stateCode);
-        //            endpoint = await notifier.GetAddressAsync(hashPartitionKey, CancellationToken.None);
-        //        }
-        //        catch (Exception e)
-        //        {
-        //            Trace.WriteLine(e.Message);
-        //            throw;
-        //        }
-
-        //        //PUT / Service's Controller definition
-        //        //[HttpPut]
-        //        //[Route("customers/{customerKey}/addorupdate/{companyName}/{zipCode}/{stateCode}/{countryCode}/{contactFullName}/{contactEmail}", Name = "AddorUpdateCustomer")]
-
-        //        Trace.WriteLine("endpoint.Item1: " + endpoint.Item1);
-        //        Trace.WriteLine("endpoint.Item2: " + endpoint.Item2);
-
-        //        Uri serviceAddress = new Uri(string.Format("{0}{1}/{2}/{3}/{4}/{5}/{6}/{7}/{8}/{9}",
-        //                                                    endpoint.Item1,
-        //                                                    "customers",
-        //                                                    customerKey,
-        //                                                    "addorupdate",
-        //                                                    companyName,
-        //                                                    zipCode,
-        //                                                    stateCode,
-        //                                                    countryCode,
-        //                                                    contactFullName,
-        //                                                    contactEmail
-        //                                                    ));
-
-        //        Trace.WriteLine("AbsoluteUri: " + serviceAddress.AbsoluteUri);
-        //        Trace.WriteLine("AbsolutePath: " + serviceAddress.AbsolutePath);
-
-        //        HttpWebRequest request = WebRequest.CreateHttp(serviceAddress);
-        //        request.Method = "PUT";
-        //        request.ContentLength = 0;
-
-        //        try
-        //        {
-        //            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-        //            {
-        //                String retVal = String.Format("<h1>{0}</h1> added to partition <h2>{1}</h2> at {2}",
-        //                    companyName,
-        //                    endpoint.Item2,
-        //                    endpoint.Item1
-        //                    );
-
-        //                Trace.WriteLine(retVal);
-
-        //                return Ok(retVal);
-        //            }
-        //        }
-        //        catch (WebException we)
-        //        {
-        //            Trace.WriteLine("Exception when calling Web API Service: " + we.Message);
-
-        //            HttpWebResponse errorResponse = we.Response as HttpWebResponse;
-
-        //            if (we.Status == WebExceptionStatus.ProtocolError)
-        //            {
-        //                int statusCode = (int)errorResponse.StatusCode;
-
-        //                if (statusCode == 404)
-        //                {
-        //                    // this could either mean we requested an endpoint that does not exist in the service API (a user error)
-        //                    // or the address that was resolved by fabric client is stale (transient runtime error) in which we should re-resolve.
-
-        //                    continue;
-        //                }
-        //            }
-
-        //            if (we.Status == WebExceptionStatus.Timeout ||
-        //                we.Status == WebExceptionStatus.RequestCanceled ||
-        //                we.Status == WebExceptionStatus.ConnectionClosed ||
-        //                we.Status == WebExceptionStatus.ConnectFailure)
-        //            {
-        //                continue;
-        //            }
-
-        //            throw;
-        //        }
-        //    }
-
-        //    return this.InternalServerError();
-
         }
     }
 }

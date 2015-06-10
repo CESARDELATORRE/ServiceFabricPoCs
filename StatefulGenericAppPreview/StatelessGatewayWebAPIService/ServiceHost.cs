@@ -10,29 +10,25 @@ namespace StatelessGatewayWebAPIService
     {
         public static void Main(string[] args)
         {
-            // Create a Windows Fabric Runtime
-            using (FabricRuntime fabricRuntime = FabricRuntime.Create())
-            using (TextWriterTraceListener trace = new TextWriterTraceListener(Path.Combine(FabricRuntime.GetActivationContext().LogDirectory, "out.log")))
+            try
             {
-                Trace.AutoFlush = true;
-                Trace.Listeners.Add(trace);
-
-                try
+                using (FabricRuntime fabricRuntime = FabricRuntime.Create())
                 {
-                    Trace.WriteLine("Starting Service Host for Stateless Gateway WebAPI Service.");
-
+                    // This is the name of the ServiceType that is registered with FabricRuntime. 
+                    // This name must match the name defined in the ServiceManifest. If you change
+                    // this name, please change the name of the ServiceType in the ServiceManifest.
+                    
                     fabricRuntime.RegisterServiceType(Service.ServiceTypeName, typeof(Service));
 
-                    ServiceEventSource.Current.ServiceTypeRegistered(Process.GetCurrentProcess().Id, Service.ServiceTypeName);
+                    ServiceEventSource.Current.ServiceTypeRegistered(Process.GetCurrentProcess().Id, typeof(Service).Name);
 
                     Thread.Sleep(Timeout.Infinite);
-                    GC.KeepAlive(fabricRuntime);
                 }
-                catch (Exception e)
-                {
-                    Trace.WriteLine(e.Message);
-                    ServiceEventSource.Current.ServiceHostInitializationFailed(e);
-                }
+            }
+            catch (Exception e)
+            {
+                ServiceEventSource.Current.ServiceHostInitializationFailed(e);
+                throw;
             }
         }
 

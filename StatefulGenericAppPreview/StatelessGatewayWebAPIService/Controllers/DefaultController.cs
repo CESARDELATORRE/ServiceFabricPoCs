@@ -23,11 +23,11 @@ namespace StatelessGatewayWebAPIService.Controllers
     public class DefaultController : ApiController
     {
         static FabricClient fabricClient = new FabricClient();
-        static IAddressChangeNotifier<long> notifier = new AddressChangeNotifier<long>("fabric:/StatefulGenericApp/StatefulWebAPIService", true);
+        
 
         static DefaultController()
         {
-            notifier.StartUpdating();
+            
         }
 
         private long GetPartitionKey(string word)
@@ -45,68 +45,69 @@ namespace StatelessGatewayWebAPIService.Controllers
         [HttpGet]
         public async Task<IHttpActionResult> Count()
         {
-            //(CDLTLL) Use of Fabric Client API to get the different PARTITIONS
-            ServicePartitionList partitions = await fabricClient.QueryManager.GetPartitionListAsync(new Uri("fabric:/StatefulGenericApp/StatefulWebAPIService"));
+            return Ok("TBD");
+            ////(CDLTLL) Use of Fabric Client API to get the different PARTITIONS
+            //ServicePartitionList partitions = await fabricClient.QueryManager.GetPartitionListAsync(new Uri("fabric:/StatefulGenericApp/StatefulWebAPIService"));
 
-            ConcurrentDictionary<Int64RangePartitionInformation, long> totals = new ConcurrentDictionary<Int64RangePartitionInformation, long>();
-            List<Task> tasks = new List<Task>(partitions.Count);
+            //ConcurrentDictionary<Int64RangePartitionInformation, long> totals = new ConcurrentDictionary<Int64RangePartitionInformation, long>();
+            //List<Task> tasks = new List<Task>(partitions.Count);
 
-            //We want to know totals per each Partition
-            foreach (var partition in partitions)
-            {
-                tasks.Add(Task.Run(async () =>
-                {
-                    //(CDLTLL) Use of Fabric Client API for name resolution of REPLICA addresses
-                    ServiceReplicaList replicas = await fabricClient.QueryManager.GetReplicaListAsync(partition.PartitionInformation.Id);
+            ////We want to know totals per each Partition
+            //foreach (var partition in partitions)
+            //{
+            //    tasks.Add(Task.Run(async () =>
+            //    {
+            //        //(CDLTLL) Use of Fabric Client API for name resolution of REPLICA addresses
+            //        ServiceReplicaList replicas = await fabricClient.QueryManager.GetReplicaListAsync(partition.PartitionInformation.Id);
 
-                    Replica replica = replicas.First(item =>
-                    {
-                        StatefulServiceReplica primary = item as StatefulServiceReplica;
-                        return primary != null && primary.ReplicaStatus == ServiceReplicaStatus.Ready && primary.ReplicaRole == ReplicaRole.Primary;
-                    });
+            //        Replica replica = replicas.First(item =>
+            //        {
+            //            StatefulServiceReplica primary = item as StatefulServiceReplica;
+            //            return primary != null && primary.ReplicaStatus == ServiceReplicaStatus.Ready && primary.ReplicaRole == ReplicaRole.Primary;
+            //        });
 
 
-                    Uri serviceAddress = new Uri(string.Format("{0}Count", replica.ReplicaAddress));
-                    
-                    HttpWebRequest request = WebRequest.CreateHttp(serviceAddress);
-                    request.Method = "GET";
+            //        Uri serviceAddress = new Uri(string.Format("{0}Count", replica.ReplicaAddress));
 
-                    try
-                    {
-                        //Query my Controller /Count that has totals within the StatsDictionary in the Stateful Service
-                        using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-                        using (StreamReader reader = new StreamReader(response.GetResponseStream()))
-                        {
-                            totals[partition.PartitionInformation as Int64RangePartitionInformation] = Int64.Parse(reader.ReadToEnd().Trim());
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        Trace.WriteLine(ex);
-                    }
-                }));
-            }
+            //        HttpWebRequest request = WebRequest.CreateHttp(serviceAddress);
+            //        request.Method = "GET";
 
-            await Task.WhenAll(tasks);
+            //        try
+            //        {
+            //            //Query my Controller /Count that has totals within the StatsDictionary in the Stateful Service
+            //            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            //            using (StreamReader reader = new StreamReader(response.GetResponseStream()))
+            //            {
+            //                totals[partition.PartitionInformation as Int64RangePartitionInformation] = Int64.Parse(reader.ReadToEnd().Trim());
+            //            }
+            //        }
+            //        catch (Exception ex)
+            //        {
+            //            Trace.WriteLine(ex);
+            //        }
+            //    }));
+            //}
 
-            StringBuilder sb = new StringBuilder();
-            sb.Append("<h1> Total:");
-            sb.Append(totals.Aggregate<KeyValuePair<Int64RangePartitionInformation, long>, long>(0, (total, next) => next.Value + total));
-            sb.Append("</h1>");
-            sb.Append("<table><tr><td>Partition ID</td><td>Key Range</td><td>Total</td></tr>");
-            foreach (var item in totals.OrderBy(item => item.Key.LowKey))
-            {
-                sb.Append("<tr><td>");
-                sb.Append(item.Key.Id);
-                sb.Append("</td><td>");
-                sb.AppendFormat("{0} - {1}", item.Key.LowKey, item.Key.HighKey);
-                sb.Append("</td><td>");
-                sb.Append(item.Value);
-                sb.Append("</td></tr>");
-            }
-            sb.Append("</table>");
+            //await Task.WhenAll(tasks);
 
-            return Ok(sb.ToString());
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("<h1> Total:");
+            //sb.Append(totals.Aggregate<KeyValuePair<Int64RangePartitionInformation, long>, long>(0, (total, next) => next.Value + total));
+            //sb.Append("</h1>");
+            //sb.Append("<table><tr><td>Partition ID</td><td>Key Range</td><td>Total</td></tr>");
+            //foreach (var item in totals.OrderBy(item => item.Key.LowKey))
+            //{
+            //    sb.Append("<tr><td>");
+            //    sb.Append(item.Key.Id);
+            //    sb.Append("</td><td>");
+            //    sb.AppendFormat("{0} - {1}", item.Key.LowKey, item.Key.HighKey);
+            //    sb.Append("</td><td>");
+            //    sb.Append(item.Value);
+            //    sb.Append("</td></tr>");
+            //}
+            //sb.Append("</table>");
+
+            //return Ok(sb.ToString());
         }
 
         //[HttpGet]

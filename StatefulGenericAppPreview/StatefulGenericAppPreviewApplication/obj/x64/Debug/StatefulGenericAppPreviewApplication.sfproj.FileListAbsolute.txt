@@ -1,1 +1,2 @@
 E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatefulGenericAppPreviewApplication\obj\x64\Debug\StatefulGenericAppPreviewApplication.sfprojResolveAssemblyReference.cache
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatefulGenericAppPreviewApplication\obj\x64\Debug\StatefulGenericAppPreviewApplication.sfprojResolveAssemblyReference.cache

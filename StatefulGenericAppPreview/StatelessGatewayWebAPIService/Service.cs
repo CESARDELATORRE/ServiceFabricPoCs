@@ -16,11 +16,20 @@ namespace StatelessGatewayWebAPIService
     {
         public const string ServiceTypeName = "StatelessGatewayWebAPIServiceType";
 
+        // CHECK AND DELETE
+        //static FabricClient fabricClient = new FabricClient();
+        //private readonly Uri statefulServiceName = new Uri("fabric:/StatefulGenericApp/StatefulWebAPIService");
+        //static IAddressChangeNotifier<long> notifier = new AddressChangeNotifier<long>("fabric:/StatefulGenericApp/StatefulWebAPIService", true);
         //
-        static FabricClient fabricClient = new FabricClient();
-        private readonly Uri statefulServiceName = new Uri("fabric:/StatefulGenericApp/StatefulWebAPIService");
-        static IAddressChangeNotifier<long> notifier = new AddressChangeNotifier<long>("fabric:/StatefulGenericApp/StatefulWebAPIService", true);
-        //
+
+        /// <summary>
+        /// Creates a listener for Web API.
+        /// </summary>
+        /// <returns></returns>
+        protected override ICommunicationListener CreateCommunicationListener()
+        {
+            return new OwinCommunicationListener("StatelessGatewayWebAPIService", new Startup());
+        }
 
         //(CDLTLL) If not Async:
         //protected override Task RunAsync(CancellationToken cancellationToken)        
@@ -120,20 +129,13 @@ namespace StatelessGatewayWebAPIService
             //return Task.FromResult(true);
         }
 
-        private long GetPartitionKey(string originalKey)
-        {
-            return originalKey.GetHashCode();
-            // return ((long)char.ToUpper(word[0])) - 64;
-        }
+        //private long GetPartitionKey(string originalKey)
+        //{
+        //    return originalKey.GetHashCode();
+        //    // return ((long)char.ToUpper(word[0])) - 64;
+        //}
 
-        /// <summary>
-        /// Creates a listener for Web API.
-        /// </summary>
-        /// <returns></returns>
-        protected override ICommunicationListener CreateCommunicationListener()
-        {
-            return new OwinCommunicationListener("StatelessGatewayWebAPIService", new Startup());
-        }
+
     }
 
     

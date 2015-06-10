@@ -1,2 +1,31 @@
 E:\GITREPOS\ServiceFabric PoCs\StatefulGenericApp\StatelessGatewayWebAPIService\bin\Debug\StatelessGatewayWebAPIService.exe.config
 E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\obj\x64\Debug\StatelessGatewayWebAPIService.csprojResolveAssemblyReference.cache
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\StatelessGatewayWebAPIService.exe.config
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\StatelessGatewayWebAPIService.exe
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\StatelessGatewayWebAPIService.pdb
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.Owin.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.Owin.Hosting.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.ServiceFabric.Data.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.ServiceFabric.Services.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Newtonsoft.Json.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Owin.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\System.Fabric.Common.Internal.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\System.Fabric.Common.Internal.Strings.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\System.Net.Http.Formatting.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\System.Web.Http.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\System.Web.Http.Owin.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.ServiceFabric.Replicator.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.ServiceFabric.Collections.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.ServiceFabric.Data.Log.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.ServiceFabric.ReplicatedStore.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.Owin.xml
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Microsoft.Owin.Hosting.xml
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\Newtonsoft.Json.xml
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\System.Net.Http.Formatting.xml
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\System.Web.Http.xml
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\System.Web.Http.Owin.xml
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\bin\Debug\en-us\System.Fabric.Common.Internal.Strings.resources.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\obj\x64\Debug\StatelessGatewayWebAPIService.exe
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\StatelessGatewayWebAPIService\obj\x64\Debug\StatelessGatewayWebAPIService.pdb

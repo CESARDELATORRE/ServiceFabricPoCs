@@ -11,3 +11,12 @@ E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\bin\Debug\Newtons
 E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\bin\Debug\System.Net.Http.Formatting.dll
 E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\bin\Debug\Newtonsoft.Json.xml
 E:\GITREPOS\ServiceFabric PoCs\StatefulGenericAppPreview\Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\Model\bin\Debug\Model.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\Model\bin\Debug\Model.pdb
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\Model\bin\Debug\Newtonsoft.Json.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\Model\bin\Debug\Newtonsoft.Json.xml
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\Model\obj\Debug\Model.dll
+E:\GitHubRepos\ServiceFabricPoCs\StatefulGenericAppPreview\Model\obj\Debug\Model.pdb

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StatelessGatewayWebAPIService
 {
-    [EventSource(Name = "MyCompany-StatefulGenericApp-StatelessGatewayWebAPIService")]
+    [EventSource(Name = "MyCompany-WordCount-WordCount.WebService")]
     internal sealed class ServiceEventSource : EventSource
     {
         public static ServiceEventSource Current = new ServiceEventSource();
@@ -17,27 +17,32 @@ namespace StatelessGatewayWebAPIService
         {
             if (this.IsEnabled())
             {
-                WriteEvent(1, message);
+                this.WriteEvent(1, message);
             }
         }
-
 
         [Event(2, Level = EventLevel.Informational, Message = "Service host {0} registered service type {1}")]
         public void ServiceTypeRegistered(int hostProcessId, string serviceType)
         {
-            WriteEvent(2, hostProcessId, serviceType);
+            this.WriteEvent(2, hostProcessId, serviceType);
         }
 
         [NonEvent]
         public void ServiceHostInitializationFailed(Exception e)
         {
-            ServiceHostInitializationFailed(e.ToString());
+            this.ServiceHostInitializationFailed(e.ToString());
         }
 
         [Event(3, Level = EventLevel.Error, Message = "Service host initialization failed")]
         private void ServiceHostInitializationFailed(string exception)
         {
-            WriteEvent(3, exception);
+            this.WriteEvent(3, exception);
+        }
+
+        [Event(4, Level = EventLevel.Error, Message = "Encountered exception {0} during {1}")]
+        public void OperationFailed(string exception, string operation)
+        {
+            this.WriteEvent(4, exception, operation);
         }
     }
 }

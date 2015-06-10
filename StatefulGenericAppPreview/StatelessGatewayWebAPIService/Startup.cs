@@ -12,7 +12,9 @@ namespace StatelessGatewayWebAPIService
         public void Configuration(IAppBuilder appBuilder)
         {    
             try
-            {         
+            {
+                System.Net.ServicePointManager.DefaultConnectionLimit = 256;
+
                 //Web API config for self-host. 
                 HttpConfiguration config = new HttpConfiguration();
 
